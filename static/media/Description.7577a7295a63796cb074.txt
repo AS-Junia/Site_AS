@@ -1,0 +1,41 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+NOM_DU_SPORT/COMMISSION : {
+
+	titre : "Triathlon", //Ici un espace
+
+	description: 'Le triathlon, c'est 3 sports en 1: tu commences par nager, tu enchaines avec du vélo, et tu finis en courant. C'est donc 3 fois plus de fun ! Et il y en a pour tous les niveaux/envies: du "sprint" (taille S) à l'Ironman ( taille XL) ! Tu souhaites participer à ton premier triathlon ? Alors n'hésites plus, rejoins nous aux entrainements pour préparer au mieux ton objectif !',
+
+	logo : '.TousLesDossiers/Triathlon/image/Logo.pnj',
+
+	image: {
+		1 : '.TousLesDossiers/Triathlon/image/image_1.pnj',
+		2 : '.TousLesDossiers/Triathlon/image/image_2.pnj',
+		3 : '.TousLesDossiers/Triathlon/image/image_3.pnj',
+		},
+
+	horaire : "Lundi (course à pied): 19h30 - 21h",
+
+	horaire2 : "Mardi ( natation): 19h30 - 21h", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "Jeudi (vélo): 14h - 16h", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "13 rue de Toul, 59000 Lille, ou Piscine Marx Dormoy, 59000 Lille",
+
+	nomVP : 'Van elslande Arthur HEI 3',
+
+	contact : '',
+
+	nomInsta : 'arthur.van-elslande@student.junia.com'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces

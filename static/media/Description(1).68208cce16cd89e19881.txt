@@ -1,0 +1,47 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+FOOTBALL_ISEN : {
+
+	titre : "FOOTBALL_ISEN", //Ici un espace
+
+	description: 'Le club de foot ISEN accueille n'importe quel joueur. Nous travaillons sérieusement et nous nous comportons comme 
+			une famille. Toujours soudé, le club se donne à fond pour rendre fière les supporters et toutes les personnes de l'ISEN.',
+
+	logo : 'FOOTBALL_ISEN\image\FCISENLOGO',
+
+	image: {
+		1 : 'FOOTBALL_ISEN\image\Image 1',
+		2 : 'FOOTBALL_ISEN\image\Image 2',
+		3 : 'FOOTBALL_ISEN\image\Image 3',
+		4 : 'FOOTBALL_ISEN\image\Image 4',
+		5 : 'FOOTBALL_ISEN\image\Image 5',
+		6 : 'FOOTBALL_ISEN\image\Image 6',
+		7 : 'FOOTBALL_ISEN\image\Image 7',
+		8 : 'FOOTBALL_ISEN\image\Image 8',
+		},
+
+	horaire : "Mardi : 18h30 - 20h30 ",
+
+	horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "13 Pl. du Général de Gaulle, 59320 Ennetières-en-Weppes",
+
+	nomVP : 'Nguyen Noa ADIMAKER 2 ISEN et Urquijo Nicolas ISEN 5',
+
+	contact : 'noa.nguyen-heberle@student.junia.com et nicolas.urquijo@student.junia.com',
+
+	nomInsta : 'fc_isen'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces

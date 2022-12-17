@@ -1,0 +1,41 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+NOM_DU_SPORT/COMMISSION : {
+
+	titre : "La_Rheicré_Junia", //Ici un espace
+
+	description: 'La Rheicré c'est quoi ? C'est LA commission de jeux en plein air de Junia ! Notre but est de proposer des activités fun pour pouvoir se défouler et passer du bon temps ensemble. De la balle au prisonnier au Molkky en passant par le Poule/Renard/Vipère, tu trouveras forcément ton bonheur !',
+
+	logo : '.TousLesDossiers/La_Rheicré_Junia/image/Logo.png',
+
+	image: {
+		1 : '',
+		2 : '',
+		3 : '',
+		},
+
+	horaire : "Pas d'horaire fixe mais des évent ponctuels",
+
+	horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "Citadelle, Salle de sport ou locaux d'HEI",
+
+	nomVP : 'Michel-Edouard Coin ESEA4 HEI',
+
+	contact : '@la_rheicre_junia',
+
+	nomInsta : '@michlcoin'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces

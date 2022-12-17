@@ -1,0 +1,38 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+NOM_DU_SPORT/COMMISSION : {
+
+	titre : "ZUMBA"
+
+	description: 'Envie de t’éclater sans te prendre la tête ? Ne cherche plus, l’AS Zumba est faite pour toi.
+Accessible à tous niveaux, tu pourras découvrir à travers des cours variés aux musiques afro, latino, salsa, bachata … une asso qui a pour maîtres-mots décompression, défoulement, bien être et bonne humeur !',
+
+	logo : 
+
+	image: {
+		1 : '.TousLesDossiers/ZUMBA/image/Halloween',
+		2 : '.TousLesDossiers/ZUMBA/image/Noël',
+		},
+
+	horaire : "Vendredi : 18h00 - 19h00",
+
+	horaire2 :
+	horaire3 : 
+	horaire4 : 
+	horaire5 : 
+
+	lieu : "20 rue de Toul (salle St Omer), 59800 Lille",
+
+	nomVP : 'Lammar-Vanhersel Jade H2 HEI',
+
+	contact : 
+
+	nomInsta : 'jade.lammar-vanhersel@student.junia.com'
+
