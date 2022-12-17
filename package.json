@@ -2,7 +2,7 @@
   "name": "site_as",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http:/AS-Junia.github.io/Site_AS",
+  "homepage": "http://AS-Junia.github.io/Site_AS",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
@@ -26,7 +26,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build && cp build/index.html build/404.html"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
