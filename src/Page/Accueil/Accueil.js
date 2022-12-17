@@ -195,6 +195,7 @@ export default function Accueil(){
                 <p>Pôle Event</p>
                 <p>Pôle Event</p>
                 <p>Pôle Event</p>
+
               </div> 
             </div>
           </div>
