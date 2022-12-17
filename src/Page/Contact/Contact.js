@@ -24,7 +24,7 @@ export default function Contact(){
         rows: [
           {
             title: "À quoi sert la licence ? Est-ce vraiment important de la prendre ? ",
-            content: "Oui, elle te permet d’avoir accès à TOUS les sports et a des tarifs avantageux sur nos événements"
+            content: "Oui, elle te permet d’avoir accès à TOUS les sports et à des tarifs avantageux sur nos événements"
           },
           {
             title: "Quand on fait une commission a t’on besoin de la licence? ",
