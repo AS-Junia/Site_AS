@@ -1,0 +1,33 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+Escrime : {
+
+	titre : "Escrime", //Ici un espace
+
+	description: 'A l'AS escrime, nous sommes affiliés à l' académie d'escrime de Vauban Lille. On pratique une fois par semaine avec un professeur dédié. Nous travaillions les trois armes olympiques ainsi que d'autre discpline de temps à autre (escrime médiévale par exemple). Nous organisons des compétitions et des événements entre nous.',
+
+	horaire : "Jeudi 15h30 - 17h",
+
+	horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "Crypte Saint Pierre Saint Paul pl Nouvelle Aventure, 59000 Lille",
+
+	nomVP : 'Manouvriez Simon CPI2 Junia',
+
+	contact : 'https://www.instagram.com/escrime_junia/',
+
+	nomInsta : 'escrime_junia'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces

@@ -1,0 +1,42 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+NOM_DU_SPORT/COMMISSION : {
+
+	titre : "Vélo", //Ici un espace
+
+	description: 'L'AS vélo est un groupe de cyclistes motivés et prêts à rouler toute l'année même en bravant le temps capricieux du nord. 
+La majorité d'entre nous pratiquons le vélo de route et le VTT XC mais nous ne sommes fermés à aucune pratique puisque nous partageons la même passion.',
+
+	logo : '.TousLesDossiers/image/image/Plan de travail 1@5x.png',
+
+	image: {
+		1 : '.TousLesDossiers/Vélo/image/IMG_6040.png',
+		2 : '.TousLesDossiers/Vélo/image/IMG_6056.png',
+		3 : '.TousLesDossiers/Vélo/image/IMG_6063.png',
+		},
+
+	horaire : "Jeudi : 14h",
+
+	horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "13 Rue de Toul, 59000 Lille",
+
+	nomVP : 'Paul HAGUET',
+
+	contact : 'https://www.instagram.com/v.hei.lo/',
+
+	nomInsta : 'v.hei.lo'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces

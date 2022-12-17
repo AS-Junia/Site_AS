@@ -1,0 +1,44 @@
+//Ici vous mettrez les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contactez moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+RACING_KART_JUNIA : {
+
+	titre : "RACING KART JUNIA", //Ici un espace
+
+	description: 'Que ce soit pour le plaisir ou la competition, cette année Racing Kart
+Junia vous propose différents évènements comme des courses
+de kart sur différents circuits et des courses Battle Kart (Karting type Mario Kart). Cette année s’annonce folle notamment avec les 24H karting ESSEC prévu en mai 2023.
+Donc n'attendez plus, faites chauffer les moteurs et rendez-vous au premier virage !',
+
+	logo : '.TousLesDossiers/RACING_KART_JUNIA/image/LOGO_RACING_KART_JUNIA',
+
+	image: {
+		1 : '.TousLesDossiers/RACING_KART_JUNIA/image/IMAGE1',
+		2 : '.TousLesDossiers/RACING_KART_JUNIA/image/IMAGE2',
+		3 : '.TousLesDossiers/RACING_KART_JUNIA/image/IMAGE3',
+		},
+
+	horaire : "",
+
+	horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "",
+
+	nomVP : 'Delannoy Emilien H4 CM',
+
+	contact : 'https://www.instagram.com/racingkartjunia/',
+
+	nomInsta : 'Racing Kart Junia'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces

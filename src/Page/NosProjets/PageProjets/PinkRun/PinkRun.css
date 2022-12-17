@@ -1,0 +1,18 @@
+#PinkRun #Titre{
+    font-family: "newFont-Titre";
+    margin-left: 10vh;
+    color: white;
+    background-color: palevioletred;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 8vh;
+    padding: 2vh;
+}
+
+#PinkRun .texte{
+    background-color: rgb(230,232,230);
+    margin: 5vh;
+    padding: 5vh;
+    line-height: 3.5vh;
+    font-family: "newFont-Text";
+}

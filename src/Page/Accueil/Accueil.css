@@ -1,0 +1,478 @@
+@font-face{
+    font-family: 'newFont-Titre';
+    src: url("../Font/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf");
+    font-size: normal;
+    font-style: normal;
+  }
+  
+  @font-face{
+    font-family: 'newFont-Text';
+    src: url("../Font/Helvetica W01 Roman.ttf");
+    font-size: normal;
+    font-style: normal;
+  }
+
+  @font-face{
+    font-family: 'Montserrat-Bold';
+    src: url("../Font/Montserrat-Bold.ttf");
+    font-size: normal;
+    font-style: normal;
+  }
+  
+  @font-face{
+    font-family: 'Montserrat';
+    src: url("../Font/Montserrat-Regular.ttf");
+    font-size: normal;
+    font-style: normal;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0%;
+  }
+  
+  /*//////////////////////////////////////////////////*/
+  /*//////////////////////////////////////////////////*/
+  /*//////////////////////////////////////////////////*/
+  
+  #Bienvenue{
+    color: rgb(63, 42, 86);
+    font-size: 5vh;
+    font-family: "newFont-Titre";
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5vh;
+    width: 55vw;
+    text-align: center;
+  }
+  
+  #FirstBox{
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+  
+  #FirstBox p{
+    position: relative;
+    top: 4vh;
+    font-size: 1.2rem;
+    color: black;
+    font-family: "newFont-Text";
+    line-height:3vh;
+  }
+  
+  #Presentation{
+    background-color: rgb(255,92,57);
+    color: white;
+  
+    margin-top: 12vh;
+    margin-bottom: 2vh;
+    padding: 0.5vh;
+    padding-left: 1.5vh;
+  
+    border-radius: 5px;
+    max-width: 35vw;
+  
+    font-size: 3vh;
+    font-family: "newFont-Titre";
+  }
+  
+  #Qui{
+    background-color: rgb(63, 42, 86);
+    color: white;
+
+    position: relative;
+    left: 15vw;
+  
+    margin-top: 12vh;
+    margin-bottom: 2vh;
+    padding: 1vh;
+    padding-left: 1.5vh;
+  
+    border-radius: 5px;
+    max-width: max-content;
+  
+    font-size: 4vh;
+    font-family: "newFont-Titre";
+  }
+
+  #PleinImage{
+    margin-top: 13vh;
+    display: flex;
+    width: 62vw;
+    height: 25vh;
+    position: relative;
+    right: 2vw;
+  }
+  
+  .ImageMenu{
+    margin: 1vh;
+  }
+  
+  
+  .Page .DivPole{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    padding: 5vh;
+    border-radius: 15px;
+    height: auto;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  
+
+/*Suite Présentation de nous*/
+  #SecondBox{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5vh;
+  }
+
+  #SecondBox .pole{
+    
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around ;
+    margin-top: 3%;
+  }
+
+  #SecondBox .infoMembre{
+    font-family: 'newFont-Text';
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 3vh;
+    font-size: 1.2rem;
+    color: black;
+  }
+
+  /*Pour séparé dans les box*/
+  /*Changement du css des lettres*/
+
+  #SecondBox .DivName{
+    display: flex;
+  }
+
+  #SecondBox .nom {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    margin-right: 5vh;
+    margin-left: 5vh;
+    text-transform: uppercase;
+    font-family: "newFont-Titre";
+    font-size: 100%;
+  }
+
+  #SecondBox .nom p {
+    line-height: 5vh;
+  }
+
+
+  #SecondBox .poste {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-right: 5vh;
+    font-weight: normal;
+    font-family: "Montserrat";
+  }
+
+  #SecondBox .poste p {
+    font-size: 3vh;
+    line-height: 5vh;
+  }
+
+  .letterWhite{
+    color: white;
+  }
+
+  .letterOrange{
+    color: rgb(255, 92, 57);
+  }
+
+  #SecondBox .DivPresentation h1{
+    color: rgb(63, 42, 86);
+    font-family: "newFont-Titre";
+    font-size: 240%;
+    margin-bottom: 5%;
+  }
+
+
+  /*Voir les photos*/
+  .PhotoNous{
+    visibility: hidden;
+  }
+
+
+
+  /*Box Bureau*/
+  #DivBureau{ 
+    position: relative;
+    top: 10%;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: max-content;
+    border-radius: 15px;
+    background-color: rgb(165, 139, 169);
+  }
+
+  #DivBureau .DivName p{
+    color: rgb(63, 42, 86);
+  }
+
+  #ImageBureau{
+    position: relative;
+    top: 5vh;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 15px;
+    background-color: rgb(165, 139, 169);
+  }
+
+  /*Box Event*/
+  #DivEvent{ 
+    position: relative;
+    top: 10%;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    border-radius: 15px;
+    background-color: rgb(255, 92, 57);
+  }
+
+  #DivEvent h1{
+    align-self: start;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  #DivEvent .DivName p{
+    color: white;
+  }
+
+
+  #ImageEvent{
+    position: relative;
+    top: 5vh;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 15px;
+    background-color: rgb(255, 92, 57);
+  }
+
+  /*Box Commissions*/
+  #DivCommission{ 
+    position: relative;
+    top: 10%;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    width: max-content;
+    border-radius: 15px;
+    background-color: rgb(63, 42, 86);
+  }
+
+  #DivCommission h1{
+    text-align: center;
+    max-width: 100%;
+  }
+
+  #DivCommission .DivName p{
+    color: white;
+  }
+
+  #ImageCommission{
+    position: relative;
+    top: 3vh;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 35vh;
+    border-radius: 15px;
+    background-color: rgb(63, 42, 86);
+  }
+
+  /*Box Sponsoring*/
+  #DivSponsoring{ 
+    position: relative;
+    top: 10%;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: max-content;
+    border-radius: 15px;
+    background-color: rgb(165, 139, 169);
+  }
+
+  #DivSponsoring h1{
+    text-align: center;
+    max-width: 100%;
+  }
+
+  #DivSponsoring .DivName p{
+    color: rgb(63, 42, 86);
+  }
+
+  #ImageSponsoring{
+    position: relative;
+    top: 5vh;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 25vh;
+    border-radius: 15px;
+    background-color: rgb(165, 139, 169);
+  }
+
+  /*Box Communication*/
+  #DivCommunication{ 
+    position: relative;
+    top: 10%;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    border-radius: 15px;
+    background-color: rgb(63, 42, 86);
+  }
+
+  #DivCommunication h1{
+    align-self: start;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  #DivCommunication .DivName p{
+    color: white;
+  }
+
+  #ImageCommunication{
+    position: relative;
+    top: 5vh;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 15px;
+    background-color: rgb(63, 42, 86);
+  }
+
+
+  /*Box Campagnes*/
+  #DivCampagnes{ 
+    position: relative;
+    top: 10%;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 45vw;
+    border-radius: 15px;
+    background-color: rgb(255, 92, 57);
+  }
+
+  #DivCampagnes h1{
+    align-self: start;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  #DivCampagnes .DivName p{
+    color: rgb(63, 42, 86);
+  }
+
+  #ImageCampagnes{
+    position: relative;
+    top: 3vh;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:40vw;
+    height: 35vh;
+    border-radius: 15px;
+    background-color: rgb(255, 92, 57);
+  }
+
+  /*Box Associations*/
+  #DivAssociations{ 
+    position: relative;
+    top: 10%;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    border-radius: 15px;
+    background-color: rgb(63, 42, 86);
+  }
+
+  #DivAssociations h1{
+    align-self: start;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  #DivAssociations .DivName p{
+    color: white;
+  }
+
+  #ImageAssociations{
+    position: relative;
+    top: 10vh;
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:30vw;
+    height: 45vh;
+    border-radius: 15px;
+    background-color: rgb(63, 42, 86);
+  }
+  
+/* 
+  .Page .SideLeft{
+    position: relative;
+    right: 10vw;
+    top: 10vh;
+  }
+
+  .Page .SideRight{
+    position: relative;
+    left: 35vw;
+    top: 10vh;
+  } */
+
+
+
+
+
+  
+  

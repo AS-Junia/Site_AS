@@ -1,0 +1,52 @@
+Artistique (cirque) I -
+Aviron I -
+Badminton I -
+BASKET 1 C -
+BASKET 2 C -
+BASKET 3 C -
+BOXE ANGLAISe I -
+BREAKDANCE I -
+fitness I -
+DANSE MODERNE I
+demi-fond I
+EQUITATION I
+ESCALADE I
+escrime I
+foot 1 C -
+foot 2 C -
+foot 3 C -
+foot f C -
+foot us C -
+futsal 1 C -
+FUTSAL 2/3 C
+golf I
+HANDBALL C
+HANDBALL F C
+horseball I
+judo I
+Karaté I
+kick-boxing I
+kitesurf I
+musculation I
+natation I
+roudnet(spikeball) C
+pompom C
+rugby 1 C
+rugby 2 C
+Rugby F C
+self défense I
+skate I
+sprint I
+SQUASH I
+step I
+tennis compet I
+tennis de table I
+tennis loisir 1 I
+TENNIS LOISIR 2 I
+Triathlon I
+VOLLEY 1 C
+VOLLEY 2 C
+VOLLEY F C
+water-polo C
+yoga I
+zumba I

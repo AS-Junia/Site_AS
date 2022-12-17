@@ -1,0 +1,40 @@
+/* #Association{
+    background-color: rgb(215, 205, 208);
+} */
+
+.Orange{
+    background-color: rgb(255, 92, 57);
+    color: rgb(255,242,205);
+}
+
+.Pantone{
+    background-color: rgb(63, 42, 86);
+    color: white;
+}
+
+.Violet{
+    background-color: rgb(165, 139, 169);
+    color: rgb(63, 42, 86);
+}
+
+.Rose{
+    background-color: pink;
+}
+
+.Grey{
+    background-color: rgb(60, 60, 60);
+}
+
+.Bleu{
+    background-color: rgb(8, 53, 185);
+}
+
+.White{
+    background-color: white;
+    color:black ;
+}
+/* 
+.deroule{
+    background-image: url(../Page/Dialo.PNG);
+    background-size: cover;
+} */
