@@ -37,6 +37,8 @@ export default function Contact(){
 
         <div className="Page" id="CONTACT">
 
+            <h1 className="PourNous">Pour nous contacter</h1>
+
             <div id="FondQuestion">
                 <h1>Notre Local</h1>
 
@@ -57,9 +59,7 @@ export default function Contact(){
                         bgColor: "white",
                         titleTextColor: "#3F2A56",
                         rowTitleColor: "#78789a",
-                        rowTitleTextSize: '4vh',
                         rowContentColor: "#48484a",
-                        rowContentTextSize: '4vh',
                         arrowColor: "black",
                         }} 
                     />

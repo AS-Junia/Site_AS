@@ -19,13 +19,17 @@ export default function SetAssociation(props){
       
       <h1 className="TitreASSO">{props.props[id].titre}</h1>
 
+      {props.props[id].logo !== "" &&
+        <img className="logoASSO  " src={require(`../TousLesDossiers/${id}/image/${props.props[id].logo}`)} alt={`${props.props[id].titre}`}/>
+      }
+
       <div className="DescriptionEtLogo">
 
         <div className="descriptionASSO">
 
-          <div className="">{props.props[id].description}</div>
+          <div className="textDescription">{props.props[id].description}</div>
 
-          <div className="HoraireLieu">
+          <div className="DivHoraireLieu">
             <div className="Horaire">{props.props[id].horaire}</div>
 
             {props.props[id].horaire2 !== "" &&
@@ -48,10 +52,6 @@ export default function SetAssociation(props){
         
 
       </div>
-
-      {props.props[id].logo !== "" &&
-        <img className="logoASSO  " src={require(`../TousLesDossiers/${id}/image/${props.props[id].logo}`)} alt={`${props.props[id].titre}`}/>
-      }
       
       <div className="photoASSO">
 
@@ -73,6 +73,8 @@ export default function SetAssociation(props){
           <div className="NomInstaASSO">Contact : {props.props[id].nomInsta}</div>
         </div>
       </div>
+
+      <div className="EmptyForPhone"></div>
       
 
     </div>

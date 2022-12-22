@@ -31,6 +31,7 @@ export default function Accueil(){
     });
   }
 
+  // Fonction qui change l'opacité des elements hors écran pour pouvoir  faire l'effet d'apparition
   function hide(elem) {
     gsap.set(elem, {autoAlpha: 0});
   }
@@ -80,8 +81,10 @@ export default function Accueil(){
 
     return (
             
-      <div className="Page" id="Big-Box">
+      <div id="PagePresentation">
+        {/* La page est séparé en 2 grandes Div: FirstBox et SecondBox  */}
         <div id="FirstBox">
+          {/* gs_reveal est une classe qui fais apparaitre ou disparaitre les éléments qui l'ont */}
           <h1 id="Bienvenue" className="gs_reveal">Bienvenue sur la page de l'as junia !</h1>
 
           <div className="gs_reveal">
@@ -106,13 +109,12 @@ export default function Accueil(){
             <p className="gs_reveal">Pour l'année 2022-2023, l'AS JUNIA compte 52 associations sportives qui proposent des sports individuels et collectifs variés (badminton, danse, rugby, golf...).</p>
           </div>
           
-        
-          <div id="PleinImage" className="gs_reveal">
-            <img className="ImageMenu" src={Image_Velo} alt=""/>  
-            <img className="ImageMenu" src={Image_Basket} alt=""/>
-            <img className="ImageMenu" src={Image_Boxe} alt=""/>
-            <img className="ImageMenu" src={Image_Snow} alt=""/>
-            <img className="ImageMenu" src={Image_Tennis} alt=""/>
+          <div id="ImagePresentation" className="gs_reveal">
+            <img className="OneImagePresentation" src={Image_Velo} alt=""/>  
+            <img className="OneImagePresentation" src={Image_Basket} alt=""/>
+            <img className="OneImagePresentation noPhone" src={Image_Boxe} alt=""/>
+            <img className="OneImagePresentation " src={Image_Snow} alt=""/>
+            <img className="OneImagePresentation noPhone" src={Image_Tennis} alt=""/>
           </div>
         </div>
 

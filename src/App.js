@@ -12,7 +12,6 @@ import Resultat from "./Page/LesAssociations/Resultat/Resultat"
 
 //Page qui parlent des Projets
 import Projets_future from "./Page/NosProjets/Projets_future/Projets_future"
-import Projets_recap from "./Page/NosProjets/Projets_recap/Projets_recap"
 import PinkRun from "./Page/NosProjets/PageProjets/PinkRun/PinkRun"
 
 //Page qui parlent des AfterWorks
@@ -44,8 +43,7 @@ function App() {
 
         {/* Liens vers les pages Projets */}
         <Route path="/Projets_future" element={<Projets_future/>}/>
-        {/*<Route path="/Projets_recap" element={<Projets_recap/>}/>
-        <Route path="/PinkRun" element={<PinkRun/>}/> */}
+        {/*<Route path="/PinkRun" element={<PinkRun/>}/> */}
 
         {/* Liens vers les pages AfterWorks */}
         <Route path="/NosAfterWorks" element={<NosAfterWorks/>}/>

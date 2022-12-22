@@ -2,6 +2,9 @@ import "./NavBar.css"
 import {Link} from "react-router-dom"
 import $ from "jquery";
 import Logo_As from "../IMAGE/Logo_Junia.png"
+import Hamburger from "./Hamburger.png"
+import { gsap } from "gsap";
+import { useEffect, useRef} from "react"
 
 export default function NavBar(){
 
@@ -23,38 +26,107 @@ export default function NavBar(){
         });
 
         $(".sousMenu").click(function(){
-            $(this.parentElement).css("visibility", "hidden")
+            if(window.innerWidth < 490){
+            $(".ForHamburger")[0].classList.toggle('OpenHamburger')
+            if($(".ForHamburger").hasClass("OpenHamburger")){
+                $('body').css("position", "fixed")
+            }
+            else{
+                $('body').css("position", "relative")
+            }
+            }
             $("#PageDark").css("visibility", "hidden")
+            
         })
-    });
+
+        $("#Hamburger").click(function(){
+            $(".ForHamburger")[0].classList.toggle('OpenHamburger')
+            if($(".ForHamburger").hasClass("OpenHamburger")){
+                $('body').css("position", "fixed")
+            }
+            else{
+                $('body').css("position", "relative")
+            }
+            
+        });
+
+        //Fonction qui ouvre le menu déroulant de Sport sur la version téléphone
+        $(".Open").click(function(){
+            if(window.innerWidth < 490){
+                
+                switch ($(".deroule").hasClass("active")) {
+                    case true:
+                        gsap.fromTo(".derouleForPhone", 
+                        {
+                            y:20, duration: 0.5,
+                            position: "absolute"},
+                        {y:0, duration: 0.5, position: "relative"})
+                        $(".deroule").removeClass("active");
+                        gsap.fromTo(".deroule", 
+                        {
+                            display: 'block',
+                            y:0, duration: 0.5,
+                            visibility: "visible",
+                            position: "relative"},
+                        {y:-30, duration: 0.5,display: 'none'})
+                        $(".deroule").removeClass("active");
+                        
+                        
+                        break;
+
+                    case false:
+                        gsap.fromTo(".derouleForPhone", 
+                        {
+                            y:-20, duration: 0.5,
+                        },
+                        {y:20, duration: 0.5, position: "relative"})
+                        gsap.fromTo(".deroule", 
+                        {display: 'none', y:-30, duration: 0.5, opacity: 0},
+                        {
+                            display: 'block',
+                            y:0, duration: 0.5,
+                            opacity: 1,
+                            position: "relative"})
+                        $(".deroule").addClass("active");
+                        
+                        break;
+                
+                    default:
+                        console.log("je bug")
+                        break;
+                }   
+            } 
+        });
     
+    });
+
     return (
         <div>
         <header>
+            {/* Logo Header */}
             <img id="LogoAS" src={Logo_As} alt=""/>
-            <nav>
+            <img id="Hamburger" src={Hamburger} alt=""/>
+            {/* Lien vers les autres pages */}
+            <nav className="ForHamburger">
                 <ul>
-                    <li className="caseMenu"><Link to="/">Présentation</Link></li>
-                    <li className="caseMenu Open"><a>Le Sport</a>
+                    {/* Presentation */}
+                    <li className="sousMenu"><Link to="/">Présentation</Link></li>
+                    {/* Menu déroulant sur Le Sports */}
+                    <li className="Open"><a>Le Sport</a>
+                        {/* ul qui apparait quand on survole Le Sport*/}
                         <ul className="deroule">
-                            <li className="caseMenu sousMenu"><Link to="/Association">Les Associatisons</Link></li>
-                            <li className="caseMenu sousMenu"><Link to="/Commission">Les Commissions</Link> </li>
-                            {/* <li className="caseMenu sousMenu"><Link to="/Resultat">Les Résultats</Link> </li> */}
+                            {/* Les Association */}
+                            <li className="sousMenu"><Link to="/Association">Les Associations</Link></li>
+                            {/* Les Commissions */}
+                            <li className="sousMenu"><Link to="/Commission">Les Commissions</Link> </li>
                         </ul>
                     </li>
-                    <li className="caseMenu Open"><Link to="/Projets_future">Nos Projets</Link>
-                        {/* <ul className="deroule">
-                            <li className="caseMenu sousMenu"></li>
-                            <li className="caseMenu sousMenu"><Link to="/Projets_recap">Récap des Projets</Link></li>
-                        </ul> */}
-                    </li>
-                    {/* <li className="caseMenu Open"><Link to="/NosAfterWorks">Nos AfterWorks</Link>
-                        <ul className="deroule">
-                            <li className="caseMenu sousMenu"><Link to="/AfterWorks_future">AfterWorks à venir</Link></li>
-                            <li className="caseMenu sousMenu"><Link to="/AfterWorks_recap">Récap des AfterWorks</Link></li>
-                        </ul>
-                    </li> */}
-                    <li className="caseMenu"><Link to="/Contact">Nous Contacter</Link></li>
+                    {/* Nos Projets */}
+                    <div className="derouleForPhone">
+                        <li className="sousMenu"><Link to="/Projets_future">Nos Projets</Link></li>
+                        {/* Nous Contacter */}
+                        <li className="sousMenu"><Link to="/Contact">Nous Contacter</Link></li>
+                    </div>
                 </ul>
             </nav>
         </header>

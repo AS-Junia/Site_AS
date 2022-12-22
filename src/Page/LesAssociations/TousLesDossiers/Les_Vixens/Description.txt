@@ -1,0 +1,41 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+NOM_DU_SPORT/COMMISSION : {
+
+	titre : "Les_Vixens", //Ici un espace
+
+	description: 'Les Vixens est l'associaion sportive de football féminin de Junia. Elle a été créée en 2020 et l'équipe participe chaque année aux tournois universitaires organisés par la FFSU.',
+
+	logo : '.TousLesDossiers/Les_Vixens/image/Logo_Vixens',
+
+	image: {
+		1 : '.TousLesDossiers/Les_Vixens/image/Photo1',
+		2 : '.TousLesDossiers/Les_Vixens/image/Photo2',
+		3 : '.TousLesDossiers/Les_Vixens/image/Photo3',
+		},
+
+	horaire : "Mardi : 20h30 - 22h00",
+
+	horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "13 Pl. du Général de Gaulle, 59320 Ennetières-en-Weppes",
+
+	nomVP : 'Reynal de Saint Michel Noémie M1 ISEN ',
+
+	contact : 'https://www.instagram.com/vixens_junia/',
+
+	nomInsta : 'vixens_junia'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces

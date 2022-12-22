@@ -1,283 +1,497 @@
-#Liste{
-    background-color: red;
-    height: auto;
-    margin-top: 10vh;
-    margin-left: 10vw;
-    width: 80vw;
-    display: flex;
-    justify-content: center;
-}
-
-#Liste li{
-    background-color: blue;
-    width: 50%;
-    height: 20vh;
-    border: 50px solid black;
-    box-sizing: border-box;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    min-width: 100vh;
-    background-image: url(../../IMAGE/FondBackground2.png);
-    background-size: 100%;
-    background-repeat: repeat-y;
-}
-
-#Association #Titre{
-    position: relative;
-    right: 5vw;
-    font-size: 3.5vw;
-    width: 80vw;
-    text-align: center;
-    margin-bottom: 2vh;
-    font-family: "newFont-Titre"; 
-}
-
-#Association #Association_Title_SearchBar{
-    margin-top: 5vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-#Association #searchBar{
-    position: relative;
-    right: 10vw;
-    height: 11vh;
-    top: 10%;
-    width: 18vw;
-    font-family: "newFont-Titre";
-    font-size: 100%;
-    padding-left: 1vw;
-}
-
-
-
-#Association #Choix{
-    height: 30vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10vh;
-}
-
-#Association .box{
-    height: 40vh;
-    width: 40vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid black;
-    border-radius: 20px;
-    box-shadow: 25px 25px 75px rgba(0,0,0,0.25),
-    10px 10px 70px rgba(0,0,0,0.25),
-    inset 5px 5px 10px rgba(0,0,0,0.5),
-    inset 5px 5px 20px rgba(255,255,255,0.2),
-    inset -5px -5px 15px rgba(0,0,0,0.75);
-}
-
-#Association .box h1{
-    margin-top: 15vh;
-    display: inline-block;
-    font-family: "newFont-Titre";
-}
-
-#Association .Image_Association{
-    width: 40%;
-    position: relative;
-    bottom: 5vh;
-}
-
-#Association .BoxSports{
-    position: relative;
-    top: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#Association .BoxSports .longbox{
-
-    justify-content: left;
-    align-items: center;
-    display: flex;
-    width: 85vw;
-    height: 20vh;
-    border: 3px solid black;
-    border-radius: 20px;
-    box-shadow: 25px 25px 75px rgba(0,0,0,0.25),
-    10px 10px 70px rgba(0,0,0,0.25),
-    inset 5px 5px 10px rgba(0,0,0,0.5),
-    inset 5px 5px 20px rgba(255,255,255,0.2),
-    inset -5px -5px 15px rgba(0,0,0,0.75);
-    margin: 1vh;
-}
-#Association .IsIndividuel .longbox{
-    background-color: rgb(63, 42, 86);
-}   
-
-#Association .IsCollectif .longbox{
-    background-color: rgb(255, 92, 57);
-}
-
-#Association .collectif{
-    background-color: rgb(255, 92, 57);
-    flex: none;
-}
-
-#Association .individuel{
-    background-color: rgb(63, 42, 86);
-}
-
-#Association .longbox h1{
-    font-family: "newFont-Titre";
-    font-size: 150%;
-    margin-left: 5vh;
-}
-
-#Association .search__results{
-    display: none;
-}
-
-/* ///////////////// */
-/* PAGE ASSOCIATION  */
-
-.TitreASSO{
-    position: relative;
-    top: 3vh;
-    right: 5vw;
-    font-size: 3.5vw;
-    width: 80vw;
-    text-align: center;
-    margin-bottom: 2vh;
-    font-family: "newFont-Titre"; 
-}
-
-.DescriptionEtLogo{
-    width: 100%;
-    height: auto;
-    font-family: "newFont-Text";
-}
-
-.HoraireLieu{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 60%;
-    height: 20vh;
-}
-
-.HoraireLieu  .Horaire + .Lieu{
-    font-family: "newFont-Text";
-    font-size: 1.7vw;
-    letter-spacing: 0.05vw;
-}
-
-.descriptionASSO{
-    /* background-color: blue; */
-    width: 55vw;
-    margin: 5%;
-    height: 60vh;
-    padding: 2vh;
-    font-size: 1.7vw;
-    letter-spacing: 0.05vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+@media only screen and (max-width: 490px) {
     
+    *{
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #Titre{
+        position: relative;
+        top: 2vh;
+        margin: 2vw;
+        font-size: 3.5vh;
+        width: 80vw;
+        text-align: center;
+        margin-bottom: 2vh;
+        font-family: "newFont-Titre"; 
+    }
+
+    #Association #searchBar{
+        position: relative;
+        top: 2vh;
+        left: 4vw;
+        height: 5vh;
+        width: 31vw;
+        font-family: "newFont-Titre";
+        font-size: 80%;
+        padding-left: 1vw;
+    }
+
+    #Association #Choix{
+        display: none;
+    }
+
+    #Individuel{
+        display: none;
+    }
+    #Collectif{
+        display: none;
+    }
+    
+    #Association .BoxSports{
+        position: relative;
+        top: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #Association .BoxSports .longbox{
+
+        justify-content: left;
+        align-items: center;
+        display: flex;
+        width: 85vw;
+        height: 15vh;
+        border: 3px solid black;
+        border-radius: 20px;
+        box-shadow: 25px 25px 75px rgba(0,0,0,0.25),
+        10px 10px 70px rgba(0,0,0,0.25),
+        inset 5px 5px 10px rgba(0,0,0,0.5),
+        inset 5px 5px 20px rgba(255,255,255,0.2),
+        inset -5px -5px 15px rgba(0,0,0,0.75);
+        margin: 1vh;
+    }
+    #Association .IsIndividuel .longbox{
+        background-color: rgb(63, 42, 86);
+    }   
+
+    #Association .IsCollectif .longbox{
+        background-color: rgb(255, 92, 57);
+    }
+
+    #Association .collectif{
+        background-color: rgb(255, 92, 57);
+        flex: none;
+    }
+
+    #Association .individuel{
+        background-color: rgb(63, 42, 86);
+    }
+
+    #Association .longbox h1{
+        font-family: "newFont-Titre";
+        font-size: 150%;
+        margin-left: 5vh;
+    }
+
+    .text-link {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+    
+    #Association .search__results{
+        display: none;
+    }
+
+    /* ///////////////// */
+    /* PAGE ASSOCIATION  */
+
+    .TitreASSO{
+        position: relative;
+        top: 3vh;
+        left: 20vw;
+        font-size: 4vw;
+        width: 60vw;
+        text-align: center;
+        margin-bottom: 2vh;
+        font-family: "newFont-Titre"; 
+    }
+
+    .DescriptionEtLogo{
+        width: 100vw;
+        height: auto;
+        font-family: "newFont-Text";
+    }
+
+    .DivHoraireLieu{
+        position: relative;
+        top: 9vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 70vw;
+        height: 10vh;
+    }
+
+    .HoraireLieu  .Horaire + .Lieu{
+        font-family: "newFont-Text";
+        font-size: 1.8vw;
+        letter-spacing: 0.09vw;
+    }
+
+    .textDescription{
+        position: relative;
+        top: 5vh;
+    }
+
+    .descriptionASSO{
+        padding: 2vh;
+    }
+
+    .logoASSO{
+        position: relative;
+        top: 5vh;
+        left: 20vh;
+        width: auto;
+        height: 25vh;
+        /* background-image: url("../../IMAGE/LogosAsso/Adeona.png"); */
+        background-size: 100% 100%;
+        border-radius: 50%;
+    }
+
+    .photoASSO{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 10vh;
+    }
+
+    .sizeImage1{
+        max-width: 30vw;
+        height: auto;
+        object-fit: contain;
+        border-radius: 15px;
+    }
+    .sizeImage2{
+        max-width: 30vw;
+        min-height: auto;
+        object-fit: contain;
+        border-radius: 15px;
+    }
+    .sizeImage3{
+        max-width: 30vw;
+        height: auto;
+        object-fit: contain;
+        border-radius: 15px;
+    }
+
+    .contactASSO{
+        position: relative;
+        top: 15vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 80vw;
+        max-width: max-content;
+        font-family: "newFont-Text";
+        font-size: 3vw;
+        letter-spacing: 0.05vw;
+        border: 1px solid black;
+        padding: 2%;
+        margin-bottom: 10vh;
+    }
+
+    .GoAsso{
+        display: block;
+        position: absolute;
+        top: 18.5vh;
+        width: 5vh;
+        height: 5vh;
+        background-image: url("./image/fleche.png");
+        background-size: 100% 100%;
+        z-index: 10;
+    }
+
+    .EmptyForPhone{
+        position: relative;
+        top: 5vh;
+        height: 2vh;
+    }
 }
 
-.logoASSO{
-    position: absolute;
-    left: 55vw;
-    top: 35vh;
-    width: auto;
-    height: 70vh;
-    margin: 5%;
-    /* background-image: url("../../IMAGE/LogosAsso/Adeona.png"); */
-    background-size: 100% 100%;
-    border-radius: 50%;
-}
+@media only screen and (min-width: 500px) {
+    #Liste{
+        background-color: red;
+        height: auto;
+        margin-top: 10vh;
+        margin-left: 10vw;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+    }
 
-.photoASSO{
-    display: flex;
-    justify-content: space-around;
-}
+    #Liste li{
+        background-color: blue;
+        width: 50%;
+        height: 20vh;
+        border: 50px solid black;
+        box-sizing: border-box;
+    }
 
-.sizeImage1{
-    max-width: 30vw;
-    height: auto;
-    object-fit: contain;
-    border-radius: 15px;
-}
-.sizeImage2{
-    max-width: 30vw;
-    min-height: auto;
-    object-fit: contain;
-    border-radius: 15px;
-}
-.sizeImage3{
-    max-width: 30vw;
-    height: auto;
-    object-fit: contain;
-    border-radius: 15px;
-}
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-.contactASSO{
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 100%;
-    max-width: max-content;
-    font-family: "newFont-Text";
-    font-size: 1.7vw;
-    letter-spacing: 0.05vw;
-    border: 1px solid black;
-    padding: 2%;
-}
+    #Titre{
+        position: relative;
+        right: 5vw;
+        font-size: 3.5vw;
+        width: 80vw;
+        text-align: center;
+        margin-bottom: 2vh;
+        font-family: "newFont-Titre"; 
+    }
 
-.NomVpASSO{
-    margin: 2%;
-    text-decoration: underline;
-    width: max-content;
-}
+    #Association #Association_Title_SearchBar{
+        margin-top: 5vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
 
-.instaASSO{
-    margin-left: 2%;
-    display: flex;
-    width: max-content;
-}
-.instaASSO:hover{
-    color: red;
-}
-
-.GoAsso{
-    display: block;
-    position: absolute;
-    top: 18vw;
-    width: 5vh;
-    height: 5vh;
-    background-image: url("./image/fleche.png");
-    background-size: 100% 100%;
-    z-index: 10;
-}
+    #Association #searchBar{
+        position: relative;
+        right: 10vw;
+        height: 11vh;
+        top: 10%;
+        width: 18vw;
+        font-family: "newFont-Titre";
+        font-size: 100%;
+        padding-left: 1vw;
+    }
 
 
-.text-link {
-    color: inherit;
-    text-decoration: inherit;
-}
 
+    #Association #Choix{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10vh;
+    }
+
+    #Association .box{
+        height: 40vh;
+        width: 40vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: 25px 25px 75px rgba(0,0,0,0.25),
+        10px 10px 70px rgba(0,0,0,0.25),
+        inset 5px 5px 10px rgba(0,0,0,0.5),
+        inset 5px 5px 20px rgba(255,255,255,0.2),
+        inset -5px -5px 15px rgba(0,0,0,0.75);
+    }
+
+    #Association .box h1{
+        margin-top: 15vh;
+        display: inline-block;
+        font-family: "newFont-Titre";
+    }
+
+    #Association .Image_Association{
+        width: 40%;
+        position: relative;
+        bottom: 5vh;
+    }
+
+    #Association .BoxSports{
+        position: relative;
+        top: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #Association .BoxSports .longbox{
+
+        justify-content: left;
+        align-items: center;
+        display: flex;
+        width: 85vw;
+        height: 20vh;
+        border: 3px solid black;
+        border-radius: 20px;
+        box-shadow: 25px 25px 75px rgba(0,0,0,0.25),
+        10px 10px 70px rgba(0,0,0,0.25),
+        inset 5px 5px 10px rgba(0,0,0,0.5),
+        inset 5px 5px 20px rgba(255,255,255,0.2),
+        inset -5px -5px 15px rgba(0,0,0,0.75);
+        margin: 1vh;
+    }
+    #Association .IsIndividuel .longbox{
+        background-color: rgb(63, 42, 86);
+    }   
+
+    #Association .IsCollectif .longbox{
+        background-color: rgb(255, 92, 57);
+    }
+
+    #Association .collectif{
+        background-color: rgb(255, 92, 57);
+        flex: none;
+    }
+
+    #Association .individuel{
+        background-color: rgb(63, 42, 86);
+    }
+
+    #Association .longbox h1{
+        font-family: "newFont-Titre";
+        font-size: 150%;
+        margin-left: 5vh;
+    }
+
+    #Association .search__results{
+        display: none;
+    }
+
+    /* ///////////////// */
+    /* PAGE ASSOCIATION  */
+
+    .TitreASSO{
+        position: relative;
+        top: 3vh;
+        right: 5vw;
+        font-size: 3.5vw;
+        width: 80vw;
+        text-align: center;
+        margin-bottom: 2vh;
+        font-family: "newFont-Titre"; 
+    }
+
+    .DescriptionEtLogo{
+        width: 100%;
+        height: auto;
+        font-family: "newFont-Text";
+    }
+
+    .DivHoraireLieu{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 60%;
+        height: 20vh;
+    }
+
+    .DivHoraireLieu  .Horaire + .Lieu{
+        font-family: "newFont-Text";
+        font-size: 1.7vw;
+        letter-spacing: 0.05vw;
+    }
+    
+    .descriptionASSO{
+        /* background-color: blue; */
+        width: 55vw;
+        margin: 5%;
+        height: 60vh;
+        padding: 2vh;
+        font-size: 1.7vw;
+        letter-spacing: 0.05vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+    .logoASSO{
+        position: absolute;
+        left: 55vw;
+        top: 35vh;
+        width: auto;
+        height: 70vh;
+        margin: 5%;
+        /* background-image: url("../../IMAGE/LogosAsso/Adeona.png"); */
+        background-size: 100% 100%;
+        border-radius: 50%;
+    }
+
+    .photoASSO{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sizeImage1{
+        max-width: 30vw;
+        height: auto;
+        object-fit: contain;
+        border-radius: 15px;
+    }
+    .sizeImage2{
+        max-width: 30vw;
+        min-height: auto;
+        object-fit: contain;
+        border-radius: 15px;
+    }
+    .sizeImage3{
+        max-width: 30vw;
+        height: auto;
+        object-fit: contain;
+        border-radius: 15px;
+    }
+
+    .contactASSO{
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        max-width: max-content;
+        font-family: "newFont-Text";
+        font-size: 1.7vw;
+        letter-spacing: 0.05vw;
+        border: 1px solid black;
+        padding: 2%;
+    }
+
+    .NomVpASSO{
+        margin: 2%;
+        text-decoration: underline;
+        width: max-content;
+    }
+
+    .instaASSO{
+        margin-left: 2%;
+        display: flex;
+        width: max-content;
+    }
+    .instaASSO:hover{
+        color: red;
+    }
+
+    .GoAsso{
+        display: block;
+        position: absolute;
+        top: 18vw;
+        width: 5vh;
+        height: 5vh;
+        background-image: url("./image/fleche.png");
+        background-size: 100% 100%;
+        z-index: 10;
+    }
+
+    .EmptyForPhone{
+        display: none;
+    }
+
+
+    .text-link {
+        color: inherit;
+        text-decoration: inherit;
+    }
+}
 
 

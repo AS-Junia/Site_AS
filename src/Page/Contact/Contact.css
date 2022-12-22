@@ -11,148 +11,195 @@
     font-size: normal;
     font-style: normal;
 }
-#CONTACT{
-    /*background-color: rgb(255,242,205);*/
-    position: absolute;
-    top:23.5vh;
-    width: 100%;
-    height: 100%;
+
+@media only screen and (max-width: 490px) {
+
+    #CONTACT #FondQuestion h1{
+        display: none;
+    }
+
+    #CONTACT #TexteContact{
+        width: 100vw;
+        padding: 2vh;
+    }
+
+    #CONTACT #TexteContact p{
+        font-size: 1rem;
+        color: black;
+        font-family: "newFont-Text";
+        line-height:3vh;
+        margin-bottom: 1vh;
+    }
+
+    .PourNous{
+        position: relative;
+        top: 2vh;
+        font-size: 3vh;
+        width: 100vw;
+        text-align: center;
+        margin-bottom: 3vh;
+        font-family: "newFont-Titre"; 
+    }
+
+    #CONTACT #RueToul{
+        top: 5vh;
+        margin-left: 5vw;
+        width: 90vw;
+        height: auto;
+        border-radius: 20px;
+        margin-bottom: 5vh;
+    }
+
+    
+    #CONTACT #InstaFaceBook{
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #CONTACT #Insta{
+
+        width: 30%;
+        height: 5vh;
+        margin: 3vh;
+        background-image: url("./Image/caseInstagram.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+
+    #CONTACT #FaceBook{
+        width: 30%;
+        height: 6vh;
+        margin: 3vh;
+        background-image: url("./Image/caseFacebook.png");
+        background-size: 100% 80%;
+        background-repeat: no-repeat;
+    }
+
+    .row-title{
+        font-family: "newFont-Text";
+    }
+
+    .row-content{
+        font-family: "newFont-Text";
+    }
+
+    h2{
+        font-family: "newFont-Titre";
+        position: relative;
+        bottom: 2vw;
+        width: 100vw;
+        text-align: center;
+    }
+
+    
 }
 
-#CONTACT #FondQuestion h1{
-    font-family: "newFont-Titre";
-    color: white;
-    font-size: 180%;
-    background-color: rgb(63,42,86);
-    border-radius: 5px;
-    display: inline-block;
-    padding: 2vh;
-    margin-left: 1vw;
-}
+@media only screen and (min-width: 500px) {
 
-#CONTACT #TexteContact p{
-    margin-top: 5vh;
-    font-family: "newFont-Text";
-    color: rgb(63, 42, 86);
-    font-size:3vh;
-}
+    #CONTACT{
+        /*background-color: rgb(255,242,205);*/
+        position: absolute;
+        top:23.5vh;
+        width: 100%;
+        height: 100%;
+    }
 
-#CONTACT #RueToul{
-    position: absolute;
-    top: 5vh;
-    width: 50vw;
-    height: auto;
-    left: 46vw;
-    border-radius: 20px;
-}
+    #CONTACT #FondQuestion h1{
+        font-family: "newFont-Titre";
+        color: white;
+        font-size: 180%;
+        background-color: rgb(63,42,86);
+        border-radius: 5px;
+        display: inline-block;
+        padding: 2vh;
+        margin-left: 1vw;
+    }
 
-#CONTACT #FondQuestion{
-    border: 1px solid black;
-    width: 35vw;
-    padding: 5vh;
-    margin: 5vh;
-    border-radius: 5px;
-}
+    #CONTACT #TexteContact p{
+        margin-top: 5vh;
+        font-family: "newFont-Text";
+        color: rgb(63, 42, 86);
+        font-size:3vh;
+    }
 
-#CONTACT #AdresseToul{
-    position: relative;
-    color: rgb(63, 42, 86);
-    font-family: "newFont-Titre";
-    text-decoration: underline 4px;
-    font-size: 4vh;
-    display: inline-block;
-    position: relative;
-    top: -12vh;
-    left: 51vw;
-}
+    #CONTACT #RueToul{
+        position: absolute;
+        top: 5vh;
+        width: 50vw;
+        height: auto;
+        left: 46vw;
+        border-radius: 20px;
+    }
 
-#CONTACT #InstaFaceBook{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-}
+    #CONTACT #FondQuestion{
+        border: 1px solid black;
+        width: 35vw;
+        padding: 5vh;
+        margin: 5vh;
+        border-radius: 5px;
+    }
 
-#CONTACT #Insta{
+    #CONTACT #AdresseToul{
+        position: relative;
+        color: rgb(63, 42, 86);
+        font-family: "newFont-Titre";
+        text-decoration: underline 4px;
+        font-size: 4vh;
+        display: inline-block;
+        position: relative;
+        top: -12vh;
+        left: 51vw;
+    }
 
-    width: 30%;
-    height: 15vh;
-    margin: 3vh;
-    background-image: url("./Image/caseInstagram.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-}
+    #CONTACT #InstaFaceBook{
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
 
-#CONTACT #FaceBook{
-    width: 30%;
-    height: 15vh;
-    margin: 3vh;
-    background-image: url("./Image/caseFacebook.png");
-    background-size: 100% 80%;
-    background-repeat: no-repeat;
-    display: flex;
-}
+    #CONTACT #Insta{
 
-#CONTACT #AllQuestion{
-    margin-top: 12%;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80vw;
-    height: 50%;
-    border: 10px solid rgb(255, 92, 57);
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
+        width: 30%;
+        height: 15vh;
+        margin: 3vh;
+        background-image: url("./Image/caseInstagram.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+    }
 
-#CONTACT #TitreQuestion{
-    font-family: "newFont-Titre";
-    color: white;
-    font-size: 5vh;
-    background-color: rgb(255, 92, 57);
-    border-radius: 5px;
-    display: inline-block;
-    padding: 2%;
-    position: relative;
-    left: 8vw;
-    bottom: 10vh;
-}
+    #CONTACT #FaceBook{
+        width: 30%;
+        height: 15vh;
+        margin: 3vh;
+        background-image: url("./Image/caseFacebook.png");
+        background-size: 100% 80%;
+        background-repeat: no-repeat;
+        display: flex;
+    }
 
-#CONTACT .questions{
-    width: 75vw;
-    height: auto;
-    margin: 2vw;
-}
+    .row-title{
+        font-family: "newFont-Text";
+    }
 
-#CONTACT #AllQuestion .visible-pannel img{
-    width: 1.5vw;
-}
+    .row-content{
+        font-family: "newFont-Text";
+    }
 
-.visible-pannel {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #f1f1f1;
-    border-radius: 10px;
-    position: relative;
-    z-index: 100;
-    padding: 2vh;
-    width: 75vw;
-}
+    h2{
+        font-family: "newFont-Titre";
+        position: relative;
+        left: 1vw;
+    }
 
-.row-title{
-    font-family: "newFont-Text";
-}
-
-.row-content{
-    font-family: "newFont-Text";
-}
-
-h2{
-    font-family: "newFont-Titre";
+    .PourNous{
+        display: none;
+    }
 }
