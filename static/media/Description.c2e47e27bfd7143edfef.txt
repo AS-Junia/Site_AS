@@ -1,0 +1,40 @@
+VOLLEY_BALL_SPORT: {
+
+	titre : "VOLLEY-BALL",
+
+	description: '',
+
+	logo : '.TousLesDossiers/VOLLEY_BALL_SPORT/image/logo.png', //Volley M
+	logo1 : '.TousLesDossiers/VOLLEY_BALL_SPORT/image/logo1.png', //Volley F
+
+	/*
+	image: {
+		1 : '.TousLesDossiers/VOLLEY_BALL_SPORT/image/image1',
+		2 : '.TousLesDossiers/VOLLEY_BALL_SPORT/image/image2',
+		3 : '.TousLesDossiers/VOLLEY_BALL_SPORT/image/image3',
+		},
+	*/
+
+	horaire : "Lundi : 19h - 20h30 (Equipe 1, 4 et loisirs F)", //Lieu 
+	horaire2 : "Lundi : 20h30 - 22h (Equipe 1, 2 et F)", //Lieu
+	horaire3 : "Mardi : 20h - 22h" (Equipe 5 et loisirs), //Lieu1
+	horaire4 : "Vendredi : 20h30 - 22h" (Equipe 3 et loisirs)", //Lieu
+
+	lieu : "77 rue Philippe-Laurent Roland, 59000 Lille",
+	lieu1 : "12 rue Colson, 59000 Lille",
+
+	nomVPFéminin : 'JOLY Josephine HEI3 HEI', //Volley F
+	nomVP1 : 'DAILLY Paul CIR2 ISEN', //Volley M
+	nomVP2 : 'LORIDANT Victor CNB4 ISEN', //Volley M
+ 	nomVP3 : 'ROULIER Arthur HEI3 HEI', //Volley M
+	nomVP4 : 'HOUDAILLE Francois Gabriel HEI3 HEI', //Volley M
+	nomVP5 : 'VANHOUTTE Hugo HEI3 HEI', //Volley M
+	nomVPLOISIRS : 'BOULNOIS Constant CPG3 ISEN', //Volley M
+
+	contact : 'https://www.instagram.com/heigle_volley/', //Volley M
+	contact1 : 'https://www.instagram.com/pantheirs_volley_junia/', //Volley F
+
+	nomInsta : 'HEIGLE - JUNIA', //Volley M
+	nomInsta1 : 'PANTHEIRS - JUNIA' //Volley F
+
+}
