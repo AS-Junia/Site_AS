@@ -43,14 +43,14 @@
         color: black;
         display: block;
         font-family: "newFont-Titre";
-        font-size: .45em;
+        font-size: 1.5vw;
         text-align: center;
     }
     .BoxProjets p{
         color: black;
         display: block;
         font-family: "newFont-Titre";
-        font-size: 0.35em;
+        font-size: 1.3vw;
         width: max-content;
     }
 
@@ -75,7 +75,7 @@
 
     .Escalade{
         position: absolute;
-        top: 45vh;
+        top: 47vh;
         right: 10vw;
         text-align: center;
     }
@@ -83,7 +83,7 @@
     .logoAs{
         position: absolute;
         top: 44.5vh;
-        left: 5.5vw;
+        left: 5vw;
         text-align: center;
         background-image: url(../../IMAGE/logo_as.webp);
         width: 30vw;
