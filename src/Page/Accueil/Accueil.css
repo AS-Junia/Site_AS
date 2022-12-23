@@ -386,10 +386,10 @@
   #ImagePresentation{
     margin-top: 13%;
     display: flex;
-    width: 62vw;
-    height: 25%;
+    width: 60vw;
+    height: 13vw;
     position: relative;
-    right: 2vw;
+    right: 5vw;
   }
 
   .OneImagePresentation{

@@ -127,12 +127,14 @@ export default function Commission(){
                     </Link>
                 </div>
                 <div className="side">
+                    <Link className="text-link" to="/Commission/NordExpress">
                     <div className="box Pantone">
 
-                        <h1>heixpress</h1><br></br>
+                        <h1>Nord Express</h1><br></br>
                         <h2>Chloé Lelong</h2>
-                        <h2 className="PasDisponible">Disponible prochainement</h2>
+                        {image("Logo NordExpress")}
                     </div>
+                    </Link>
                     <div className="box White gs_reveal">
 
                         <h1>l'éQUIPAGE</h1><br></br>
@@ -163,12 +165,14 @@ export default function Commission(){
                         <h2>Quentin fritsh</h2>
                         <h2 className="PasDisponible">Disponible prochainement</h2>
                     </div>
-                    <div className="box Pantone gs_reveal">
+                    <Link className="text-link" to="/Commission/WildWeek">
+                        <div className="box Pantone gs_reveal">
 
-                        <h1>wildweek</h1><br></br>
-                        <h2>Juliette Flan</h2>
-                        <h2 className="PasDisponible">Disponible prochainement</h2>
-                    </div>
+                            <h1>wildweek</h1><br></br>
+                            <h2>Juliette Flan</h2>
+                            {image("logoWildWeek")}
+                        </div>
+                    </Link>
                     <div className="box White gs_reveal">
 
                         <h1>skisen</h1><br></br>

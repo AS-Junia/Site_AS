@@ -466,6 +466,248 @@ export const comment = {
 
         type : '/Association',
     
+    },
+
+    VOLLEY_BALL: {
+
+        titre : "VOLLEY-BALL M",
+    
+        description: ' VP Equipe 1 : DAILLY Paul CIR2 ISEN, VP Equipe 2 : LORIDANT Victor CNB4 ISEN, VP Equipe 3 :ROULIER Arthur HEI3 HEI, VP Equipe 4 : HOUDAILLE Francois Gabriel HEI3 HEI, VP Equipe 5 : VANHOUTTE Hugo HEI3 HEI, VP Equipe Loisir : BOULNOIS Constant CPG3 ISEN',
+    
+        logo : 'logo.png', //Volley M
+        // logo1 : '.TousLesDossiers/VOLLEY_BALL_SPORT/image/logo1.png', //Volley F
+    
+        
+        image: {
+            1 : '',
+            2 : '',
+            3 : '',
+            },
+    
+        horaire : "Lundi : 19h - 20h30 (Equipe 1, 4 et loisirs F)", //Lieu 
+        horaire2 : "Lundi : 20h30 - 22h (Equipe 1, 2 et F)", //Lieu
+        horaire3 : "Mardi : 20h - 22h (Equipe 5 et loisirs)", //Lieu1
+        horaire4 : "Vendredi : 20h30 - 22h (Equipe 3 et loisirs)", //Lieu
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+    
+        lieu : "77 rue Philippe-Laurent Roland, 59000 Lille et 12 rue Colson, 59000 Lille (Equipe 5 et loisirs)",
+    
+        // nomVPFéminin : 'JOLY Josephine HEI3 HEI', //Volley F
+        nomVP : 'DAILLY Paul CIR2 ISEN', //Volley M
+        // nomVP2 : 'LORIDANT Victor CNB4 ISEN', //Volley M
+        // nomVP3 : 'ROULIER Arthur HEI3 HEI', //Volley M
+        // nomVP4 : 'HOUDAILLE Francois Gabriel HEI3 HEI', //Volley M
+        // nomVP5 : 'VANHOUTTE Hugo HEI3 HEI', //Volley M
+        // nomVPLOISIRS : 'BOULNOIS Constant CPG3 ISEN', //Volley M
+    
+        contact : 'https://www.instagram.com/heigle_volley/', //Volley M
+    
+        nomInsta : 'HEIGLE - JUNIA', //Volley M
+
+        type : '/Association',
+    },
+
+    VOLLEY_BALL_F: {
+
+        titre : "VOLLEY-BALL F",
+    
+        description: '', 
+    
+        logo : 'logo1.jpg', //Volley M
+        // logo1 : '.TousLesDossiers/VOLLEY_BALL_SPORT/image/logo1.png', //Volley F
+    
+        
+        image: {
+            1 : '',
+            2 : '',
+            3 : '',
+            },
+        
+    
+        horaire : "Lundi : 19h - 20h30 (Loisir F)", //Lieu 
+        horaire2 : "Lundi : 20h30 - 22h", //Lieu
+        horaire3 : "", //Lieu1
+        horaire4 : "", //Lieu
+    
+        lieu : "77 rue Philippe-Laurent Roland, 59000 Lille et 12 rue Colson, 59000 Lille (Equipe 5 et loisirs)",
+    
+        nomVP : 'JOLY Josephine HEI3 HEI', //Volley F
+        // nomVP2 : 'LORIDANT Victor CNB4 ISEN', //Volley M
+        // nomVP3 : 'ROULIER Arthur HEI3 HEI', //Volley M
+        // nomVP4 : 'HOUDAILLE Francois Gabriel HEI3 HEI', //Volley M
+        // nomVP5 : 'VANHOUTTE Hugo HEI3 HEI', //Volley M
+        // nomVPLOISIRS : 'BOULNOIS Constant CPG3 ISEN', //Volley M
+    
+        contact : 'https://www.instagram.com/pantheirs_volley_junia/', //Volley F
+    
+        nomInsta: 'PANTHEIRS - JUNIA', //Volley F
+
+        type : '/Association',
+    },
+
+    Rugby_F_7 : {
+
+        titre : "Rugby Féminin à 7", //Ici un espace
+    
+        description: `Le rugby féminin au sein de Junia plus communément connu par le nom d'équipe "Les Yngénisses".Nous sommes une équipe féminine motivée et invaincue la saison dernière qui s'entraîne tous les lundis afin de garder la première place du classement. Alors n'attends plus et rejoins nous ! `,
+    
+        logo : 'yngennises.png',
+    
+        image: {
+            1 : 'match.jpg',
+            2 : 'entrainement.jpg',
+            3 : 'groupe.jpg',
+            },
+    
+        horaire : "Lundi : 20h00 - 21h30",
+    
+        horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+    
+        lieu : "Stade Villeneuvois Lille Métropole, 42, Rue Ticléni, 59650 Villeneuved'Asq",
+    
+        nomVP : 'Sénéchal Laurie HEI 4',
+    
+        contact : 'https://instagram.com/yngenisses?igshid=YmMyMTA2M2Y=',
+    
+        nomInsta : 'lauriescl',
+
+        type : '/Association'
+    
+    },
+
+    Les_Vixens : {
+
+        titre : "Les_Vixens", //Ici un espace
+    
+        description: "Les Vixens est l'associaion sportive de football féminin de Junia. Elle a été créée en 2020 et l'équipe participe chaque année aux tournois universitaires organisés par la FFSU.",
+    
+        logo : 'Logo_Vixens.jpg',
+    
+        image: {
+            1 : 'Photo1.JPG',
+            2 : 'Photo2.jpg',
+            3 : 'Photo3.jpg',
+            },
+    
+        horaire : "Mardi : 20h30 - 22h00",
+    
+        horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+    
+        lieu : "13 Pl. du Général de Gaulle, 59320 Ennetières-en-Weppes",
+    
+        nomVP : 'Reynal de Saint Michel Noémie M1 ISEN ',
+    
+        contact : 'https://www.instagram.com/vixens_junia/',
+    
+        nomInsta : 'vixens_junia',
+
+        type : '/Association'
+    
+    },
+
+    FUTSAL : {
+
+        titre : "FUTSAL", //Ici un espace
+    
+        description: 'Equipe de futsal de Junia',
+    
+        logo : 'logo-futsal.png',
+    
+        image: {
+            1 : 'futsal1.png',
+            2 : 'futsal2.png',
+            3 : 'futsal3.png',
+            },
+    
+        horaire : "Mercredi: 20h30/22h",
+    
+        horaire2 : "Jeudi 20h30/22h", //Vide si il n'y a qu'un cours par semaines
+        horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+    
+        lieu : "77 rue Phillipe Laurent Roland",
+    
+        nomVP : 'Thomas BOUISSOU HEI3 et Ahmad KANSO HEI3',
+    
+        contact : 'https://www.instagram.com/junia.futsal/',
+    
+        nomInsta : 'junia.futsal',
+
+        type : '/Association'
+    
+    },
+
+    NordExpress : {
+
+        titre : "NordExpress Junia", //Ici un espace
+    
+        description: "Vous aimez l'aventure ? Alors vous allez kiffer le week-end à la Pékin Express qu'on vous prépare !  Ce week-end sera un mélange d'auto-stop, d'énigmes et de défis sportifs ! L'objectif ? Soit le premier avec ton équipe à soulever le totem et vous remporterez un super prix ;) Mais attention aux pièges qui peuvent vous coûter du temps ! Le WE se déroulera début mars, en attendant monte déjà ton équipe de 3 pour être prêts à participer à l'aventure NordExpress ! N'oublie pas, les places sont limitées, alors tiens-toi prêt pour le shot gun ! On propose aussi d'autres événements donc rejoins nous sur les réseaux pour être au courant de tout !",
+    
+        logo : 'Logo NordExpress.png',
+    
+        image: {
+            1 : 'photo fin WE.png',
+            2 : 'Feu de camp.png',
+            3 : 'Photo épreuve.png',
+            },
+    
+        horaire : "",
+    
+        horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+    
+        lieu : "",
+    
+        nomVP : 'Lelong Chloé HEI',
+    
+        contact : 'https://www.instagram.com/nord_expresss/',
+    
+        nomInsta : 'nord_expresss',
+
+        type : '/Commission'
+    
+    },
+
+    WildWeek : {
+
+        titre : "Wild Week Hei", //Ici un espace
+    
+        description: "Yoo les surfeurs de poudre ! Comme tous les ans Jean-Michel ski vous concocte une semaine de folie dans une station encore tenue secrète mais qui reste néanmoins sensationnelle !Les 12 membres de la Wild Week intimement surnommée la WAWA vous préparent une classe des neiges rocambolesque chaque année. Entre ski, after ski, activités inattendues raclette et pédiluve la wild week saura vous régaler! Bref du pur kiff pour des skiffeurs, on vous attend nombreux en février à Risoul ! poudreusement votre JM",
+    
+        logo : 'logo.png',
+    
+        image: {
+            1 : 'grp.JPG',
+            2 : '',
+            3 : 'team.JPG',
+            },
+    
+        horaire : " Du 18 au 25 février 2023 ",
+    
+        horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+    
+        lieu : "Station de Risoul 1850",
+    
+        nomVP : 'Flan Juliette HEI 3 ',
+    
+        contact : 'https://www.instagram.com/wildweekhei/?hl=fr',
+    
+        nomInsta : 'wildweekhei',
+
+        type : '/Commission'
+    
     }
         
 

@@ -1,4 +1,4 @@
-VOLLEY_BALL_SPORT: {
+VOLLEY_BALL: {
 
 	titre : "VOLLEY-BALL",
 
@@ -36,5 +36,4 @@ VOLLEY_BALL_SPORT: {
 
 	nomInsta : 'HEIGLE - JUNIA', //Volley M
 	nomInsta1 : 'PANTHEIRS - JUNIA' //Volley F
-
 }

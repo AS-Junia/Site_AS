@@ -195,6 +195,31 @@ export default function Association(){
                     <h1>Football Isen</h1>
                     </div>
                 </Link>
+                <Link className="text-link" to="/Association/VOLLEY_BALL">
+                <div className="longbox" alt="VOLLEY_BALL" color="255, 92, 57">
+                    <h1>Volley Ball M</h1>
+                    </div>
+                </Link>
+                <Link className="text-link" to="/Association/VOLLEY_BALL_F">
+                <div className="longbox" alt="VOLLEY_BALL_F" color="255, 92, 57">
+                    <h1>Volley Ball F</h1>
+                    </div>
+                </Link>
+                <Link className="text-link" to="/Association/Rugby_F_7">
+                <div className="longbox" alt="Rugby_F_7" color="255, 92, 57">
+                    <h1>Rugby F à 7</h1>
+                    </div>
+                </Link>
+                <Link className="text-link" to="/Association/Les_Vixens">
+                <div className="longbox" alt="Les_Vixens" color="255, 92, 57">
+                    <h1>Les Vixens</h1>
+                    </div>
+                </Link>
+                <Link className="text-link" to="/Association/FUTSAL">
+                <div className="longbox" alt="FUTSAL" color="255, 92, 57">
+                    <h1>FUTSAL</h1>
+                    </div>
+                </Link>
                 
                 
             </div>
