@@ -7,9 +7,9 @@
 
     #Titre{
         position: relative;
-        top: 2vh;
-        margin: 2vw;
-        font-size: 3.5vh;
+        top: 15%;
+        margin: 2%;
+        font-size: 1.5em;
         width: 80vw;
         text-align: center;
         margin-bottom: 2vh;
@@ -18,10 +18,10 @@
 
     #Association #searchBar{
         position: relative;
-        top: 2vh;
-        left: 4vw;
-        height: 5vh;
-        width: 31vw;
+        top: 10%;
+        left: 4%;
+        height: 2.5em;
+        width: 12em;
         font-family: "newFont-Titre";
         font-size: 80%;
         padding-left: 1vw;
@@ -40,7 +40,7 @@
     
     #Association .BoxSports{
         position: relative;
-        top: 5vh;
+        top: 3em;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -52,8 +52,8 @@
         justify-content: left;
         align-items: center;
         display: flex;
-        width: 85vw;
-        height: 15vh;
+        width: 25em;
+        height: 8em;
         border: 3px solid black;
         border-radius: 20px;
         box-shadow: 25px 25px 75px rgba(0,0,0,0.25),
@@ -83,7 +83,8 @@
     #Association .longbox h1{
         font-family: "newFont-Titre";
         font-size: 150%;
-        margin-left: 5vh;
+        margin-left: 5%;
+        width: 100%;
     }
 
     .text-link {
