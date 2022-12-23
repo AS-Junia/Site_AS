@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Site_AS/static/css/main.3da916ad.css",
-    "main.js": "/Site_AS/static/js/main.cee267df.js",
+    "main.css": "/Site_AS/static/css/main.19889366.css",
+    "main.js": "/Site_AS/static/js/main.6f8f5845.js",
     "static/media/IMG_6063.png": "/Site_AS/static/media/IMG_6063.0afcf19e3d79dbc1df3c.png",
     "static/media/IMG_6056.png": "/Site_AS/static/media/IMG_6056.0727d4697bb96bdd47d1.png",
     "static/media/IMG_6040.png": "/Site_AS/static/media/IMG_6040.1248b97328d8d5c97f36.png",
@@ -85,11 +85,11 @@
     "static/media/AS_HANDBALL.txt": "/Site_AS/static/media/AS_HANDBALL.288c1fab4394b646959c.txt",
     "static/media/Description_equitation.txt": "/Site_AS/static/media/Description_equitation.b337d4c75ee250546414.txt",
     "index.html": "/Site_AS/index.html",
-    "main.3da916ad.css.map": "/Site_AS/static/css/main.3da916ad.css.map",
-    "main.cee267df.js.map": "/Site_AS/static/js/main.cee267df.js.map"
+    "main.19889366.css.map": "/Site_AS/static/css/main.19889366.css.map",
+    "main.6f8f5845.js.map": "/Site_AS/static/js/main.6f8f5845.js.map"
   },
   "entrypoints": [
-    "static/css/main.3da916ad.css",
-    "static/js/main.cee267df.js"
+    "static/css/main.19889366.css",
+    "static/js/main.6f8f5845.js"
   ]
 }
