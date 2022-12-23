@@ -65,10 +65,12 @@
     }
     #Association .IsIndividuel .longbox{
         background-color: rgb(63, 42, 86);
+        color: white;
     }   
 
     #Association .IsCollectif .longbox{
         background-color: rgb(255, 92, 57);
+
     }
 
     #Association .collectif{
