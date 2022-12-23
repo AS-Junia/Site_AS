@@ -86,7 +86,7 @@
   #ImagePresentation{
     margin-top: 3vh;
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 8em;
     position: relative;
     justify-content: center;
