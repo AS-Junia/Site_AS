@@ -86,10 +86,11 @@
   #ImagePresentation{
     margin-top: 3vh;
     display: flex;
-    width: 100vw;
-    height: 8em;
-    position: relative;
+    width: 80vw;
+    height: 5em;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .OneImagePresentation{
@@ -160,7 +161,7 @@
     margin-left: auto;
     text-transform: uppercase;
     font-family: "newFont-Titre";
-    font-size: 0.5em;
+    font-size: 1.5vw;
     display: inline;
   }
 
@@ -178,7 +179,7 @@
   }
 
   .poste p {
-    font-size: 0.6em;
+    font-size: 1.6vw;
     line-height: 3vh;
   }
 
@@ -193,7 +194,7 @@
   #SecondBox .DivPresentation h1{
     color: rgb(63, 42, 86);
     font-family: "newFont-Titre";
-    font-size: 1.2em;
+    font-size: 3vw;
     margin-bottom: 5%;
   }
 
@@ -258,8 +259,8 @@
 
   }
 
-  #DivCommission .nom{
-    margin-left: 12vw;
+  #DivCommission .DivName{
+    margin-right: 4vw;
   }
 
   /*Box Sponsoring*/
