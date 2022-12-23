@@ -296,9 +296,9 @@ export const comment = {
         logo : 'logo.png',
     
         image: {
-            1 : 'logo insta.png',
-            2 : 'logo_fond_neutre.jpg',
-            3 : 'logo fond glitch.png',
+            1 : '',
+            2 : '',
+            3 : '',
             },
     
         horaire : "19h30-23h30  une fois par mois",

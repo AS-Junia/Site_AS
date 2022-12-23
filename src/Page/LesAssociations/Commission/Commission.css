@@ -17,29 +17,27 @@
     #Commission{
         text-align: center;
     }
-
+ 
     #Commission #Titre{
-        position: relative;
-        top: 2vh;
         margin-left: auto;
         margin-right: auto;
-        font-size: 3.5vh;
-        width: 80vw;
+        font-size: 2em;
+        width: 100%;
         text-align: center;
-        margin-bottom: 8vh;
+        margin-bottom: 8%;
         font-family: "newFont-Titre"; 
     }
 
     #Commission .side{
-        width: 90vw;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
 
     #Commission .box{
         opacity: 1;
-        height: 44vh;
-        margin-bottom: 5vh;
+        height: 20em;
+        margin-bottom: 10%;
         border: 1px solid black;
         border-radius: 20px;
         box-shadow: 25px 25px 75px rgba(0,0,0,0.25),
@@ -47,10 +45,13 @@
         inset 5px 5px 10px rgba(0,0,0,0.5),
         inset 5px 5px 20px rgba(255,255,255,0.2),
         inset -5px -5px 15px rgba(0,0,0,0.75);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #Commission .box h1{
-        margin-top: 7vh;
+        margin-top: 10%;
         display: inline-block;
         font-family: "newFont-Titre";
     }
@@ -58,7 +59,12 @@
     #Commission .box h2{
         display: inline-block;
         font-family: "newFont-Titre";
-        font-size: 2vh;
+        font-size: 1em;
+        margin-top: 1%;
+    }
+
+    .PasDisponible{
+        color: red;
     }
 
     #Commission .Blason{
