@@ -1,0 +1,41 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+NordExpress : {
+
+	titre : "NordExpress", //Ici un espace
+
+	description: 'Vous aimez l'aventure ? Alors vous allez kiffer le week-end à la Pékin Express qu'on vous prépare !  Ce week-end sera un mélange d'auto-stop, d'énigmes et de défis sportifs ! L'objectif ? Soit le premier avec ton équipe à soulever le totem et vous remporterez un super prix ;) Mais attention aux pièges qui peuvent vous coûter du temps ! Le WE se déroulera début mars, en attendant monte déjà ton équipe de 3 pour être prêts à participer à l'aventure NordExpress ! N'oublie pas, les places sont limitées, alors tiens-toi prêt pour le shot gun ! On propose aussi d'autres événements donc rejoins nous sur les réseaux pour être au courant de tout !',
+
+	logo : '.TousLesDossiers/NordExpress/image/Logo_NordExpress',
+
+	image: {
+		1 : '.TousLesDossiers/NordExpress/image/photo_fin_WE',
+		2 : '.TousLesDossiers/NordExpress/image/feu_de_camp',
+		3 : '.TousLesDossiers/NordExpress/image/Photo_épreuve',
+		},
+
+	horaire : "",
+
+	horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "",
+
+	nomVP : 'Lelong Chloé HEI',
+
+	contact : 'nordexpressjunia@gmail.com',
+
+	nomInsta : 'https://www.instagram.com/nord_expresss/'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces
