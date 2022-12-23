@@ -1,4 +1,16 @@
 @media only screen and (max-width: 490px) {
+
+    #Projets_future #Titre{
+        position: relative;
+        top: 5%;
+        margin: 2%;
+        font-size: 1.5em;
+        width: 70%;
+        
+        text-align: center;
+        font-family: "newFont-Titre"; 
+    }
+
     #Projets_future{
         background-image: url(../Image/route.webp);
         background-size: 100% 100%;
@@ -31,14 +43,15 @@
         color: black;
         display: block;
         font-family: "newFont-Titre";
-        font-size: 1.2vh;
+        font-size: .45em;
         text-align: center;
     }
     .BoxProjets p{
         color: black;
         display: block;
         font-family: "newFont-Titre";
-        font-size: 1vh;
+        font-size: 0.35em;
+        width: max-content;
     }
 
     .Tchat{
@@ -69,12 +82,12 @@
 
     .logoAs{
         position: absolute;
-        top: 45vh;
-        left: 6vw;
+        top: 44.5vh;
+        left: 5.5vw;
         text-align: center;
         background-image: url(../../IMAGE/logo_as.webp);
-        width: 29vw;
-        height: 29vw;
+        width: 30vw;
+        height: 30vw;
         background-size: 100% 100%;
     }
 }

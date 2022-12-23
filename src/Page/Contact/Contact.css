@@ -7,7 +7,7 @@
   @font-face{
     font-family: 'newFont-Text';
     src: url("../Font/Helvetica W01 Roman.ttf");
-    font-size: normal;
+    
     font-style: normal;
 }
 
@@ -80,10 +80,12 @@
 
     .row-title{
         font-family: "newFont-Text";
+        margin-left: 2%;
     }
 
     .row-content{
         font-family: "newFont-Text";
+        margin-left: 2%;
     }
 
     h2{
@@ -92,8 +94,8 @@
         bottom: 2vw;
         width: 100vw;
         text-align: center;
+        
     }
-
     
 }
 

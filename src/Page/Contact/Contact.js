@@ -57,6 +57,7 @@ export default function Contact(){
                     <Faq data={data}
                     styles={{
                         bgColor: "white",
+                        titleTextSize: '1.5em',
                         titleTextColor: "#3F2A56",
                         rowTitleColor: "#78789a",
                         rowContentColor: "#48484a",
