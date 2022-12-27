@@ -7,38 +7,35 @@
 //5 - Si vous avez des questions contacter moi par mail
 
 //Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
-Wild Week HEI : {
+Water-polo : {
 
-	titre : "Wild Week Hei", //Ici un espace
+	titre : "Water-polo", //Ici un espace
 
-	description: 'Yoo les surfeurs de poudre !
-Comme tous les ans Jean-Michel ski vous concocte une semaine de folie dans une station encore tenue secrète mais qui reste néanmoins sensationnelle !
-Les 12 membres de la Wild Week intimement surnommée la WAWA vous préparent une classe des neiges rocambolesque chaque année. Entre ski, after ski, activités inattendues raclette et pédiluve la wild week saura vous régaler! 
-Bref du pur kiff pour des skiffeurs, on vous attend nombreux en février à Risoul ! 
-poudreusement votre JM',
+	description: 'Cette année nous nous entrainons avec les étudiants de l'Edhec au sein de leur école. Un entraineur assure les séances pour que les débutants apprennent plus rapidement. 
+L'équipe est mixte et il est préférable d'avoir quelques bases en natation pour prendre du plaisir. N'hésitez pas à venir faire un essai pour vous faire votre idée !',
 
-	logo : 'logo.png',
+	logo : '.TousLesDossiers/Water-polo/image/logo',
 
 	image: {
-		1 : 'grp.JPG',
-		2 : 'logo.png',
-		3 : 'team.JPG',
+		1 : '.TousLesDossiers/Water-polo/image/1',
+		2 : '.TousLesDossiers/Water-polo/image/2',
+		3 : '.TousLesDossiers/Water-polo/image/3',
 		},
 
-	horaire : " Du 18 au 25février 2023 ",
+	horaire : "Jeudi : 18h00 - 20h00",
 
 	horaire2 : "", //Vide si il n'y a qu'un cours par semaines
 	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
 	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
 	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
 
-	lieu : "Station de Risoul 1850",
+	lieu : "372 rue verte, 59170 Croix",
 
-	nomVP : 'Flan Juliette HEI 3 ',
+	nomVP : 'Lespagnol Nathan',
 
-	contact : 'https://www.instagram.com/wildweekhei/?hl=fr',
+	contact : 'https://www.instagram.com/waterpolo_edhec_junia/',
 
-	nomInsta : 'wildweekhei'
+	nomInsta : 'waterpolo_edhec_junia'
 
 }
 
