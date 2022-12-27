@@ -580,7 +580,7 @@ export const comment = {
 
     Les_Vixens : {
 
-        titre : "Les_Vixens", //Ici un espace
+        titre : "Les Vixens", //Ici un espace
     
         description: "Les Vixens est l'associaion sportive de football féminin de Junia. Elle a été créée en 2020 et l'équipe participe chaque année aux tournois universitaires organisés par la FFSU.",
     
@@ -707,6 +707,36 @@ export const comment = {
         nomInsta : 'wildweekhei',
 
         type : '/Commission'
+    
+    },
+    Water_polo : {
+
+        titre : "Water Polo", //Ici un espace
+    
+        description: "Cette année nous nous entrainons avec les étudiants de l'Edhec au sein de leur école. Un entraineur assure les séances pour que les débutants apprennent plus rapidement. L'équipe est mixte et il est préférable d'avoir quelques bases en natation pour prendre du plaisir. N'hésitez pas à venir faire un essai pour vous faire votre idée !",
+    
+        logo : 'logo.png',
+    
+        image: {
+            1 : '1.png',
+            2 : '2.png',
+            3 : '3.png',
+            },
+    
+        horaire : "Jeudi : 18h00 - 20h00",
+    
+        horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+    
+        lieu : "372 rue verte, 59170 Croix",
+    
+        nomVP : 'Lespagnol Nathan',
+    
+        contact : 'https://www.instagram.com/waterpolo_edhec_junia/',
+    
+        nomInsta : 'waterpolo_edhec_junia'
     
     }
         

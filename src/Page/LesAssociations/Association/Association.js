@@ -167,7 +167,7 @@ export default function Association(){
                     </div>
             </Link>
             <Link className="text-link" to="/Association/Escrime">
-                <div className="longbox" alt="SPRINT" color="63, 42, 86">
+                <div className="longbox" alt="Escrime" color="63, 42, 86">
                     <h1>Escrime</h1>
                     </div>
             </Link>
@@ -220,7 +220,11 @@ export default function Association(){
                     <h1>FUTSAL</h1>
                     </div>
                 </Link>
-                
+                <Link className="text-link" to="/Association/Water_polo">
+                <div className="longbox" alt="Water_polo" color="255, 92, 57">
+                    <h1>Water Polo</h1>
+                    </div>
+                </Link>
                 
             </div>
 
