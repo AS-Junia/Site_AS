@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { useParams } from "react-router-dom";
 import {Link} from "react-router-dom"
 
@@ -20,7 +20,7 @@ export default function SetAssociation(props){
       <h1 className="TitreASSO">{props.props[id].titre}</h1>
 
       {props.props[id].logo !== "" &&
-        <img className="logoASSO  " src={require(`../TousLesDossiers/${id}/image/${props.props[id].logo}`)} alt={`${props.props[id].titre}`}/>
+        <img className="logoASSO  " src={require(`../../TousLesDossiers/${id}/image/${props.props[id].logo}`)} alt={`${props.props[id].titre}`}/>
       }
 
       <div className="DescriptionEtLogo">
@@ -56,13 +56,13 @@ export default function SetAssociation(props){
       <div className="photoASSO">
 
       {props.props[id].image[1] !== "" &&
-        <img className="sizeImage1" src={require(`../TousLesDossiers/${id}/image/${props.props[id].image[1]}`)} alt=""/>
+        <img className="sizeImage1" src={require(`../../TousLesDossiers/${id}/image/${props.props[id].image[1]}`)} alt=""/>
       }
       {props.props[id].image[2] !== "" &&
-        <img className="sizeImage1" src={require(`../TousLesDossiers/${id}/image/${props.props[id].image[2]}`)} alt=""/>
+        <img className="sizeImage1" src={require(`../../TousLesDossiers/${id}/image/${props.props[id].image[2]}`)} alt=""/>
       }
       {props.props[id].image[3] !== "" &&
-        <img className="sizeImage1" src={require(`../TousLesDossiers/${id}/image/${props.props[id].image[3]}`)} alt=""/>
+        <img className="sizeImage1" src={require(`../../TousLesDossiers/${id}/image/${props.props[id].image[3]}`)} alt=""/>
       }
         
       </div>

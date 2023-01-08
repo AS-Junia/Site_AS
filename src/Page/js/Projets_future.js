@@ -1,9 +1,5 @@
-import "./Projets_future.css"
-import "../../Couleur.css"
-import Ieseg from "../Image/Ieseg.jpeg"
-import Arena from "../Image/Arena.PNG"
-import IceParty from "../Image/IceParty.jpg"
-import {Link, Route} from "react-router-dom"
+import "../css/Projets_future.css"
+import "../css/Couleur.css"
 
 export default function Projets_future(){
 

@@ -12,7 +12,7 @@
     }
 
     #Projets_future{
-        background-image: url(../Image/route.webp);
+        background-image: url(../IMAGE/NosProjets/Image/route.webp);
         background-size: 100% 100%;
         height: 84vh;
         width: 100vw;
@@ -85,7 +85,7 @@
         top: 44.5vh;
         left: 5vw;
         text-align: center;
-        background-image: url(../../IMAGE/logo_as.webp);
+        background-image: url(../IMAGE/logo_as.webp);
         width: 30vw;
         height: 30vw;
         background-size: 100% 100%;
@@ -95,7 +95,7 @@
 @media only screen and (min-width: 500px) {
 
     #Projets_future{
-        background-image: url(../Image/route.webp);
+        background-image: url(../IMAGE/NosProjets/Image/route.webp);
         background-size: 100% 100%;
         height: 220vh;
     }
@@ -193,7 +193,7 @@
         top: 135vh;
         left: 6vw;
         text-align: center;
-        background-image: url(../../IMAGE/logo_as.webp);
+        background-image: url(../IMAGE/logo_as.webp);
         width: 29vw;
         height: 29vw;
         background-size: 100% 100%;

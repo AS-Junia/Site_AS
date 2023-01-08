@@ -1,0 +1,59 @@
+
+#FAQ{
+    position: absolute;
+    top: 29vh;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 490px) {
+
+    #FAQ h1{
+
+        margin-right: auto;
+        margin-left: auto;
+        width: 100vw;
+        font-family: "newFont-Titre";
+        text-align: center;
+        color: #3F2A56;
+        margin-bottom: 3vh;
+    }
+
+    #FAQ .row-title-text{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    #FAQ .row-content-text{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+
+
+@media only screen and (min-width: 500px) {
+
+    #FAQ h1{
+
+        margin-right: auto;
+        margin-left: auto;
+        font-family: "newFont-Titre";
+        text-align: center;
+        color: #3F2A56;
+        margin-bottom: 3vh;
+
+    }
+
+    #FAQ .row-title-text{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    #FAQ .row-content-text{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+        
+    
+}
+

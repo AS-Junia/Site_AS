@@ -1,21 +1,28 @@
-import "./Association.css"
-import Image_Sport_Collectif from './image/Sport_Collectif.png'
-import Image_Sport_Individuel from './image/Sport_Individuel.png'
+import "../../css/Association.css"
 import {useState} from 'react';
 import { gsap } from "gsap";
 import { useEffect, useRef} from "react"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { ScrollToPlugin } from "gsap/ScrollToPlugin"
 import {Link} from "react-router-dom"
-import J$, { post } from "jquery"
+import J$ from "jquery"
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 
 
 
-
 export default function Association(){
     
+    
+  function image(nom, point, where = "LeSport") {  
+    //Créer une variable stockant le nom de l'image
+    const NomImage = nom;
+
+    return (      
+        <img class={"Image_Association"} src={require(`../../IMAGE/${where}/Image/${NomImage}.${point}`)}/>   
+    );  
+  }
+
     const [datasSport, setDatasSport] = useState([])
     const [searchTerm, setSearchTerm] = useState("")
 
@@ -110,17 +117,15 @@ export default function Association(){
                     onChange={handleSearchTerm}
                 />
             </div>
-            
-            
 
             <div id="Choix">
                 <div className="box Pantone" id="Individuel" data-active=".IsIndividuel">
                     <h1>Individuelles</h1>
-                    <img className="Image_Association" src={Image_Sport_Individuel} alt=""/>  
+                    {image("Sport_Individuel", "png")}
                 </div>
                 <div className="box Orange" id="Collectif" data-active=".IsCollectif">
                     <h1>Collectives</h1>
-                    <img className="Image_Association" src={Image_Sport_Collectif} alt=""/>  
+                    {image("Sport_Collectif", "png")}
                 </div>
             </div>
 

@@ -63,7 +63,7 @@
         width: 30%;
         height: 5vh;
         margin: 3vh;
-        background-image: url("./Image/caseInstagram.png");
+        background-image: url("../IMAGE/Contact/Image/caseInstagram.png");
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
@@ -73,7 +73,7 @@
         width: 30%;
         height: 6vh;
         margin: 3vh;
-        background-image: url("./Image/caseFacebook.png");
+        background-image: url("../IMAGE/Contact/Image/caseFacebook.png");
         background-size: 100% 80%;
         background-repeat: no-repeat;
     }
@@ -96,7 +96,7 @@
         text-align: center;
         
     }
-    
+
 }
 
 @media only screen and (min-width: 500px) {
@@ -106,7 +106,7 @@
         position: absolute;
         top:23.5vh;
         width: 100%;
-        height: 100%;
+        height: 80vh;
     }
 
     #CONTACT #FondQuestion h1{
@@ -170,7 +170,7 @@
         width: 30%;
         height: 15vh;
         margin: 3vh;
-        background-image: url("./Image/caseInstagram.png");
+        background-image: url("../IMAGE/Contact/Image/caseInstagram.png");
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
@@ -180,7 +180,7 @@
         width: 30%;
         height: 15vh;
         margin: 3vh;
-        background-image: url("./Image/caseFacebook.png");
+        background-image: url("../IMAGE/Contact/Image/caseFacebook.png");
         background-size: 100% 80%;
         background-repeat: no-repeat;
         display: flex;

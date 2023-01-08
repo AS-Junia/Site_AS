@@ -1,12 +1,20 @@
-import "./NavBar.css"
+import "../css/NavBar.css"
 import {Link} from "react-router-dom"
 import $ from "jquery";
 import Logo_As from "../IMAGE/Logo_Junia.png"
-import Hamburger from "./Hamburger.png"
 import { gsap } from "gsap";
-import { useEffect, useRef} from "react"
 
 export default function NavBar(){
+
+    
+  function image(nom, point, where = "NavBar") {  
+    //Créer une variable stockant le nom de l'image
+    const NomImage = nom;
+
+    return (      
+        <img id={`${NomImage}`} src={require(`../IMAGE/${where}/Image/${NomImage}.${point}`)}/>   
+    );  
+  }
 
     $(document).ready(function() {
         $(".deroule").mouseover(function () {
@@ -105,7 +113,7 @@ export default function NavBar(){
         <header>
             {/* Logo Header */}
             <img id="LogoAS" src={Logo_As} alt=""/>
-            <img id="Hamburger" src={Hamburger} alt=""/>
+            <div>{image("Hamburger", "png")}</div>
             {/* Lien vers les autres pages */}
             <nav className="ForHamburger">
                 <ul>
@@ -126,8 +134,10 @@ export default function NavBar(){
                         <li className="sousMenu"><Link to="/Projets_future">Nos Projets</Link></li>
                         {/* Nous Contacter */}
                         <li className="sousMenu"><Link to="/Contact">Nous Contacter</Link></li>
+                        {/* Faq */}
+                        <li className="sousMenu"><Link to="/Faq">Faq</Link></li>
                     </div>
-                </ul>
+            </ul>
             </nav>
         </header>
         <div id="PageDark"></div>

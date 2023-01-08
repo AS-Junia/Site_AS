@@ -1,5 +1,5 @@
-import "./Commission.css"
-import "../../Couleur.css"
+import "../../css/Commission.css"
+import "../../css/Couleur.css"
 import { useEffect} from "react"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger"

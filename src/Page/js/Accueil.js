@@ -1,10 +1,5 @@
-import "./Accueil.css"
+import "../css/Accueil.css"
 import react from 'react'
-import Image_Basket from './Image/basket.webp'
-import Image_Boxe from './Image/Boxe.PNG'
-import Image_Velo from './Image/Velo.PNG'
-import Image_Tennis from './Image/Tennis.PNG'
-import Image_Snow from './Image/snow.webp'
 import { useEffect, useRef} from "react"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger"
@@ -13,6 +8,16 @@ import { ScrollToPlugin } from "gsap/ScrollToPlugin"
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 
 export default function Accueil(){
+
+  
+  function image(nom, point, where = "Accueil") {  
+    //Créer une variable stockant le nom de l'image
+    const NomImage = nom;
+
+    return (      
+        <img id={`${NomImage}`} src={require(`../IMAGE/${where}/Image/${NomImage}.${point}`)}/>   
+    );  
+  }
 
   //Fonction qui affiche et fait monter le texte ou descendre en fonction de direction
   function animateFrom(elem, direction) {
@@ -110,11 +115,11 @@ export default function Accueil(){
           </div>
           
           <div id="ImagePresentation" className="gs_reveal">
-            <img className="OneImagePresentation" src={Image_Velo} alt=""/>  
-            <img className="OneImagePresentation" src={Image_Basket} alt=""/>
-            <img className="OneImagePresentation noPhone" src={Image_Boxe} alt=""/>
-            <img className="OneImagePresentation " src={Image_Snow} alt=""/>
-            <img className="OneImagePresentation noPhone" src={Image_Tennis} alt=""/>
+            <div className="OneImagePresentation">{image("Velo", "PNG")}</div>
+            <div className="OneImagePresentation noPhone">{image("basket", "webp")}</div>
+            <div className="OneImagePresentation ">{image("Boxe", "PNG")}</div>
+            <div className="OneImagePresentation noPhone">{image("snow", "webp")}</div>
+            <div className="OneImagePresentation">{image("Tennis", "PNG")}</div>
           </div>
         </div>
 
