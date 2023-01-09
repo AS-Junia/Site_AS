@@ -337,13 +337,16 @@
     color: white;
   }
 
-
 }
 
 /*//////////////////////////////////////////////////*/
 /*//////////////////////////////////////////////////*/
-/*//////////////////////////////////////////////////*/
+/*////////  //////////////////////////////////////////*/
 @media only screen and (min-width: 500px) {
+
+  .Createur:hover {
+    color: gold;
+  }
 
   #Bienvenue{
     color: rgb(63, 42, 86);
@@ -691,7 +694,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 45vw;
+    width: 50vw;
     border-radius: 15px;
     background-color: rgb(255, 92, 57);
   }
@@ -754,6 +757,8 @@
     border-radius: 15px;
     background-color: rgb(63, 42, 86);
   }
+
+  
 }
 
 

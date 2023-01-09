@@ -264,7 +264,7 @@ export default function Accueil(){
                 <div className="nom">
                   <p>éléa astié</p>
                   <p>noémie gillardin</p>
-                  <p>joachim dieu</p>
+                  <p><span className="Createur">joachim dieu</span></p>
                   <p>élina rosemberg</p>
                   <p>Margaux Bertin</p>
                   <p>jules hua</p>
