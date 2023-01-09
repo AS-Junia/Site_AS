@@ -88,13 +88,16 @@
     display: flex;
     width: 80vw;
     height: 5em;
-    justify-content: center;
+    justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
   }
 
   .OneImagePresentation{
     margin: 1vh;
+    background-size: cover;
+    height: 18vw;
+    width: auto;
   }
 
   .noPhone{
@@ -389,11 +392,14 @@
     width: 60vw;
     height: 13vw;
     position: relative;
-    right: 5vw;
+    right: 15%;
   }
 
   .OneImagePresentation{
     margin: 1vh;
+    background-size: cover;
+    height: 13vw;
+    width: auto;
   }
 
   /*Suite Présentation de nous*/

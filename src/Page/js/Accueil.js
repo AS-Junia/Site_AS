@@ -10,12 +10,12 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 export default function Accueil(){
 
   
-  function image(nom, point, where = "Accueil") {  
+  function image(nom, point, nomClass, where = "Accueil") {  
     //Créer une variable stockant le nom de l'image
     const NomImage = nom;
 
     return (      
-        <img id={`${NomImage}`} src={require(`../IMAGE/${where}/Image/${NomImage}.${point}`)}/>   
+      <img className={`${nomClass}`} id={`${NomImage}`} src={require(`../IMAGE/${where}/Image/${NomImage}.${point}`)}/>   
     );  
   }
 
@@ -115,11 +115,11 @@ export default function Accueil(){
           </div>
           
           <div id="ImagePresentation" className="gs_reveal">
-            <div className="OneImagePresentation">{image("Velo", "PNG")}</div>
-            <div className="OneImagePresentation noPhone">{image("basket", "webp")}</div>
-            <div className="OneImagePresentation ">{image("Boxe", "PNG")}</div>
-            <div className="OneImagePresentation noPhone">{image("snow", "webp")}</div>
-            <div className="OneImagePresentation">{image("Tennis", "PNG")}</div>
+            <div>{image("Velo", "PNG", "OneImagePresentation")}</div>
+            <div>{image("basket", "webp", "OneImagePresentation")}</div>
+            <div>{image("Boxe", "PNG", "OneImagePresentation")}</div>
+            <div>{image("snow", "webp", "OneImagePresentation noPhone")}</div>
+            <div>{image("Tennis", "PNG", "OneImagePresentation")}</div>
           </div>
         </div>
 
