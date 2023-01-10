@@ -52,7 +52,7 @@ export default function Commission(){
 
     return (
         <div id="Commission">
-            <h1 id="Titre">Les 20 Commissions</h1>
+            <h1 id="Titre">Les 22 Commissions</h1>
 
             <div id="allCommission">
                 <div className="side">
@@ -135,12 +135,14 @@ export default function Commission(){
                         {image("Logo NordExpress")}
                     </div>
                     </Link>
-                    <div className="box White gs_reveal">
+                    <Link className="text-link" to="/Commission/Equipage_Voile_Junia">
+                        <div className="box White gs_reveal">
 
-                        <h1>l'éQUIPAGE</h1><br></br>
-                        <h2>Pierre de fournas</h2>
-                        <h2 className="PasDisponible">Disponible prochainement</h2>
-                    </div>
+                            <h1>l'éQUIPAGE</h1><br></br>
+                            <h2>Pierre de fournas</h2>
+                            {image("logo Equipage")}
+                        </div>
+                    </Link>
                     <div className="box Pantone gs_reveal">
 
                         <h1>north beach</h1><br></br>
@@ -185,12 +187,14 @@ export default function Commission(){
                         <h2>Nicolas Duval</h2>
                         <h2 className="PasDisponible">Disponible prochainement</h2>
                     </div>
-                    <div className="box White gs_reveal">
+                    <Link className="text-link" to="/Commission/Flechette">
+                        <div className="box White gs_reveal">
 
-                        <h1>Flechette</h1><br></br>
-                        <h2>Jules Mancini</h2>
-                        <h2 className="PasDisponible">Disponible prochainement</h2>
-                    </div>
+                            <h1>Flechette</h1><br></br>
+                            <h2>Jules Mancini</h2>
+                            {image("logo Flechette")}
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

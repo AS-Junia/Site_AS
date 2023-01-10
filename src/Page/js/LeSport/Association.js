@@ -176,6 +176,11 @@ export default function Association(){
                     <h1>Escrime</h1>
                     </div>
             </Link>
+            <Link className="text-link" to="/Association/Boxe_Anglaise">
+                <div className="longbox" alt="Boxe_Anglaise" color="63, 42, 86">
+                    <h1>Boxe Anglaise</h1>
+                    </div>
+            </Link>
             
             </div>
 
@@ -230,7 +235,17 @@ export default function Association(){
                     <h1>Water Polo</h1>
                     </div>
                 </Link>
+                <Link className="text-link" to="/Association/Hockey_sur_gazon">
+                <div className="longbox" alt="Hockey_sur_gazon" color="255, 92, 57">
+                    <h1>Hockey sur gazon</h1>
+                    </div>
+                </Link>
                 
+                <Link className="text-link" to="/Association/HandBall_Féminin">
+                <div className="longbox" alt="HandBall_Féminin" color="255, 92, 57">
+                    <h1>HandBall Féminin</h1>
+                    </div>
+                </Link>
             </div>
 
             {/* <div className="BoxSports">

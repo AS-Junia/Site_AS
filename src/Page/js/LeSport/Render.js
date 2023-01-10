@@ -14,8 +14,6 @@ export default function SetAssociation(props){
 
   return(
     <div id="SetAssociation">
-
-      <Link to={props.props[id].type} className="GoAsso"></Link>
       
       <h1 className="TitreASSO">{props.props[id].titre}</h1>
 
@@ -45,7 +43,10 @@ export default function SetAssociation(props){
               <div className="Horaire">{props.props[id].horaire5}</div>
             }
             <p></p>
-            <div className="Lieu">Adresse : {props.props[id].lieu}</div>
+            {props.props[id].lieu !== "" &&
+              <div className="Lieu">Adresse : {props.props[id].lieu}</div>
+            }
+            
           </div>
         </div>
 

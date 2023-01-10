@@ -206,7 +206,7 @@ export const comment = {
             3 : 'IMAGE3.jpg',
             },
     
-        horaire : "",
+        horaire : "Pas d'horaire fixe mais des évent ponctuels",
     
         horaire2 : "", //Vide si il n'y a qu'un cours par semaines
         horaire3 : "", //Vide si il n'y a qu'un cours par semaines
@@ -658,7 +658,7 @@ export const comment = {
             3 : 'Photo épreuve.png',
             },
     
-        horaire : "",
+        horaire : "Pas d'horaire fixe mais des évent ponctuels",
     
         horaire2 : "", //Vide si il n'y a qu'un cours par semaines
         horaire3 : "", //Vide si il n'y a qu'un cours par semaines
@@ -738,8 +738,163 @@ export const comment = {
     
         nomInsta : 'waterpolo_edhec_junia'
     
-    }
+    },
+    Equipage_Voile_Junia : {
+
+        titre : "L'Equipage Club Voile Junia", //Ici un espace
+
+        description: " L'Equipage est l'asso voile de Junia ! On organise plusieurs évènements tout au long de l'année, comme des sorties voiles, des nettoyages de plage ou encore un super afterwork... On a comme objectif principal de participer à la 42ème edition de la Spi Dauphine en avril !",
+
+        logo : 'logo.png',
+
+        image: {
+            1 : 'Photo1.jpg',
+            2 : 'Photo2.jpg',
+            3 : 'Photo3.jpg',
+        },
+
+        horaire : "Pas d'horaire fixe mais des évent ponctuels",
+        horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+        lieu : "",
+
+        nomVP : 'Pierre de Fournas HEI H4',
+
+        contact : 'https://www.instagram.com/lequipage_junia/',
+
+        nomInsta : '@lequipage_junia',
+
+        type : '/Commission'
+
+    },
+
+    Boxe_Anglaise : {
+
+        titre : "BOXE ANGLAISE", //Ici un espace
+    
+        description: "Nous sommes une association de boxe anglaise regroupant des boxeurs allant du débutant au plus expérimenté. Nous nous retrouvons deux fois par semaine pour entraîner notre technique, notre cardio et pour bien sûr faire des combats !",
+
+        logo : 'Logo.png',
+    
+        image: {
+            1 : 'Photo1.JPG',
+            2 : 'Photo2.jpg',
+            3 : 'Photo3.jpg',
+            },
+    
+        horaire1 : "Lundi 20h30 - 22h",
+        horaire2 : "Mercredi 20h30 - 22h",
+        horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+    
+        lieu : "77 Rue Philippe-Laurent Roland, 59000 Lille",
+    
+        nomVP : "Nicolas PONCELET HEI 3 et Ethan NACHEF HEI 3",
+    
+        contact : 'https://www.instagram.com/heiboxingclub/?hl=fr',
+    
+        nomInsta : "heiboxingclub",
         
+        type : '/Association',
+    },
 
+    Hockey_sur_gazon : {
 
-  };
+        titre : "Hockhei", //Ici un espace
+    
+        description: "Vous avez un fort esprit d'équipe et souhaitez vous dépenser sur le terrain ? Le hockey sur gazon est fait pour vous ! Que ce soit en tant que débutant(e) ou joueur(se) expérimenté(e), le hockey est un sport de course, compétitif, qui vous permettra de vous intégrer pleinement à une équipe et développer vos capacités physiques. Retrouvez nous sur Instagram pour suivre notre actualité et en savoir plus !",
+    
+        logo : 'logo hockhei.png',
+    
+        image: {
+            1 : 'hockeyphoto1.png',
+            2 : 'hockeyphoto2.png',
+            3 : 'hockeyphoto3.png',
+            },
+    
+        horaire : "Lundi : 20h00 - 21h30",
+    
+        horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+    
+        lieu : "106 Av. Henri Delecaux, 59130 Lambersart",
+    
+        nomVP : 'Deshayes Chloé HEI3',
+    
+        contact : 'https://www.instagram.com/hockey_hei/',
+    
+        nomInsta : 'hockey_hei',
+        
+        type : '/Association',
+    },
+    Flechette : {
+
+        titre : "Hockhei", //Ici un espace
+    
+        description: "Salut amis de Junia ! Cette année une nouvelle association ouvre à Junia « fl’heichette », une association 100% fléchette 🎯. Nous sommes extrêmement motivés à vous faire vivre des événements fléchette comme vous en avais jamais vécu 😎😎 Esprit de compétition et rigolade à gogo seront les maîtres mots de notre association. Cette année sera la première 😁mais nous avons beaucoup de projet et énormément d’ambitions, Tournois solo ou en équipe seront organisés et beaucoup de projets arriveront par la suite. Donc on t’invite vivement à nous suivre afin d’être au courant des meilleurs événements de fléchettes de ta région (sans aucune prétention bien sûr). Cerise sur le gâteau des lots seront à gagner lors des tournois 🤪🤑 Si tu ne veux jamais rater ta cible et que tu es motivé à faire évoluer l’association tu es la bienvenue !✌️😇",
+    
+        logo : 'logo.png',
+    
+        image: {
+            1 : '',
+            2 : '',
+            3 : '',
+            },
+    
+        horaire : "Pas d'horaire fixe mais des évent ponctuels",
+    
+        horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+    
+        lieu : "",
+    
+        nomVP : 'Mancini Jules',
+    
+        contact : 'https://www.instagram.com/flec_heitte/',
+    
+        nomInsta : 'flec_heitte',
+        
+        type : '/Commission',
+    },
+
+    HandBall_Féminin : {
+
+        titre : "HandBall Féminin", //Ici un espace
+    
+        description: "",
+    
+        logo : 'Logo AS HandF.jpg',
+    
+        image: {
+            1 : 'Image Hand1.jpg',
+            2 : 'Image Hand3.jpg',
+            3 : '',
+            },
+    
+        horaire : "Lundi : 20h30 - 22h",
+    
+        horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+        horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+    
+        lieu : "12 rue Colson, 59000 Lille",
+    
+        nomVP : 'Haandrikman Célestine ISA2',
+    
+        contact : 'https://www.instagram.com/celestine_hdkm/',
+    
+        nomInsta : 'celestine_hdkm',
+        
+        type : '/Association',
+    }
+
+};
