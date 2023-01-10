@@ -1,0 +1,43 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+Hockey_sur_gazon : {
+
+	titre : "Hockhei", //Ici un espace
+
+	description: 'Vous avez un fort esprit d'équipe et souhaitez vous dépenser sur le terrain ? Le hockey sur gazon est fait pour vous ! Que ce soit en tant que
+			débutant(e) ou joueur(se) expérimenté(e), le hockey est un sport de course, compétitif, qui vous permettra de vous intégrer pleinement à une 
+			équipe et développer vos capacités physiques. Retrouvez nous sur Instagram pour suivre notre actualité et en savoir plus !',
+
+	logo : '.TousLesDossiers/Hockey_sur_gazon/image/logo_hockhei',
+
+	image: {
+		1 : '.TousLesDossiers/Hockey_sur_gazon/image/hockeyphoto1',
+		2 : '.TousLesDossiers/Hockey_sur_gazon/image/hockeyphoto2',
+		3 : '.TousLesDossiers/Hockey_sur_gazon/image/hockeyphoto3',
+		},
+
+	horaire : "Lundi : 20h00 - 21h30",
+
+	horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "106 Av. Henri Delecaux, 59130 Lambersart",
+
+	nomVP : 'Deshayes Chloé HEI3',
+
+	contact : 'https://www.instagram.com/hockey_hei/',
+
+	nomInsta : 'hockey_hei'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces

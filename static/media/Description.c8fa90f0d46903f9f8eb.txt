@@ -1,0 +1,48 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+L'Equipage_Club_Voile_Junia : {
+
+	titre : "L'Equipage_Club_Voile_Junia", //Ici un espace
+
+	description: ' L'Equipage est l'asso voile de Junia ! On organise plusieurs évènements tout au long de l'année, comme des sorties voiles, des nettoyages de plage ou encore un super afterwork...
+
+On a comme objectif principal de participer à la 42ème edition de la Spi Dauphine en avril !
+
+',
+
+	logo : '.TousLesDossiers/L'Equipage_Club_Voile_Junia/image/Logo',
+
+	image: {
+		1 : '.TousLesDossiers/L'Equipage_Club_Voile_Junia/image/Photo1',
+		2 : '.TousLesDossiers/L'Equipage_Club_Voile_Junia/image/Photo2',
+		3 : '.TousLesDossiers/L'Equipage_Club_Voile_Junia/image/Photo3',
+		4 : '.TousLesDossiers/L'Equipage_Club_Voile_Junia/image/Photo4',
+		5 : '.TousLesDossiers/L'Equipage_Club_Voile_Junia/image/Photo5',
+
+
+		},
+
+	horaire : "",
+	horaire2 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "",
+
+	nomVP : 'Pierre de Fournas HEI H4',
+
+	contact : 'https://www.instagram.com/lequipage_junia/',
+
+	nomInsta : '@lequipage_junia'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces
