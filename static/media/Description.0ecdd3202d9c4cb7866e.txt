@@ -1,0 +1,48 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+NOM_DU_SPORT/COMMISSION : {
+
+	titre : Airsoft/Airsoft_Junia
+
+	description: Airsoft_Junia c’est l’association d’airsoft commune aux trois école HEI ISEN et ISA qui a pour but de faire découvrir cette discipline sportive qui mobilise l’ensemble du corps. Courir, sauter, ramper, s’accroupir… Même l’esprit d’équipe et de cohésion y sont développés. 
+Alors si t’es intéressé et que tu veux découvrir un nouveau sport seul ou avec des potes rejoins nous !!!
+
+	logo : '.TousLesDossiers/Airsoft_Junia/image/Logo Airsoft_Junia',
+
+	image: {
+		1 : '.TousLesDossiers/Airsoft_Junia/image/Airsoft_Junia_IMAGE1',
+		2 : '.TousLesDossiers/Airsoft_Junia/image/Airsoft_Junia_IMAGE2',
+		3 : '.TousLesDossiers/Airsoft_Junia/image/Airsoft_Junia_IMAGE3',
+		4 : '.TousLesDossiers/Airsoft_Junia/image/Airsoft_Junia_IMAGE4',
+		5 : '.TousLesDossiers/Airsoft_Junia/image/Airsoft_Junia_IMAGE5',
+		6 : '.TousLesDossiers/Airsoft_Junia/image/Airsoft_Junia_IMAGE6',
+		7 : '.TousLesDossiers/Airsoft_Junia/image/Airsoft_Junia_IMAGE7',
+		8 : '.TousLesDossiers/Airsoft_Junia/image/Airsoft_Junia_IMAGE8',
+		9 : '.TousLesDossiers/Airsoft_Junia/image/Airsoft_Junia_IMAGE9',
+		10 : '.TousLesDossiers/Airsoft_Junia/image/Airsoft_Junia_IMAGE10',
+		},
+
+	horaire : Nous organisons, au minimum, 1 partie par mois qui se déroule le week-end, soit le samedi ou soit le dimanche. Les horaires sont variables en fonction de la période et sont communiquées lors de la création du groupe Messenger réunissant tous les participants. Néanmoins, les horaires les plus utiliées sont les suivantes : 
+horaire 1 : "Samedi : 8h-17h",
+horaire 2 : "Dimanche : 8h-17h",
+horaire 3 : "Dimanche : 14h-19h",
+
+	
+	lieu : "Nous excerçons l'airsoft sur des terrains amménagés et réglementés, pour ce sport, se situant aux alentours de Lille. Des exemples de terrains dans lesquels nous jouons souvent : Xtrême KPS ou encore Paintball Arena",
+
+	nomVP : 'Matthieu Cuccaroni CITé HEI',
+
+	contact : 'LIEN VERS LA PAGE INSTAGRAM OU RIEN',
+
+	nomInsta : 'airsoft_junia'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces
