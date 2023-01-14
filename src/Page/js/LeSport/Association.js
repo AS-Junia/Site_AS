@@ -181,6 +181,11 @@ export default function Association(){
                     <h1>Boxe Anglaise</h1>
                     </div>
             </Link>
+            <Link className="text-link" to="/Association/Judo">
+                <div className="longbox" alt="Judo" color="63, 42, 86">
+                    <h1>Judo</h1>
+                    </div>
+            </Link>
             
             </div>
 

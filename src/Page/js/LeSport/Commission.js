@@ -63,13 +63,14 @@ export default function Commission(){
                         <h2 className="PasDisponible">Disponible prochainement</h2>
                         
                     </div>
+                    <Link className="text-link" to="/Commission/Airsoft_Junia">
                     <div className="box Violet gs_reveal">
 
-                        <h1>heirsoft</h1><br></br>
+                        <h1>Airsoft Junia</h1><br></br>
                         <h2>Matthieu Cuccaroni</h2>
-                        <h2 className="PasDisponible">Disponible prochainement</h2>
-                        
+                        {image("logo Airsoft_Junia")}
                     </div>
+                    </Link>
                     <div className="box Orange gs_reveal">
 
                         <h1>jumping</h1><br></br>

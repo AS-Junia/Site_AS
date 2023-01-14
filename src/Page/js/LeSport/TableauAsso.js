@@ -894,7 +894,70 @@ export const comment = {
     
         nomInsta : 'celestine_hdkm',
         
-        type : '/Association',
-    }
+    },
+
+    Judo : {
+
+	titre : "Judo", //Ici un espace
+
+	description: '',
+
+	logo : 'JuniaJudo.png',
+
+	image: {
+		1 : 'IMG_6098.JPG',
+		2 : 'IMG_6443.JPG',
+		3 : 'IMG_6512.JPG',
+		},
+
+	horaire : "Lundi : 19h-20h30",
+
+	horaire2 : "Jeudi : 16h30-18h30 , avec l'IESEG", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "Lundi : 77 Rue Philippe Laurent-Roland , 59000 Lille, Jeudi : 85 Rue des Stations , 59000 Lille",
+
+	nomVP : 'BOULOGNE AUXENCE HEI3',
+
+	contact : 'https://www.instagram.com/junia_judo/',
+
+	nomInsta : 'junia_judo'
+
+},
+
+Airsoft_Junia : {
+
+	titre : "Airsoft Junia",
+
+	description: "Airsoft Junia c’est l’association d’airsoft commune aux trois école HEI ISEN et ISA qui a pour but de faire découvrir cette discipline sportive qui mobilise l’ensemble du corps. Courir, sauter, ramper, s’accroupir… Même l’esprit d’équipe et de cohésion y sont développés. Alors si t’es intéressé et que tu veux découvrir un nouveau sport seul ou avec des potes rejoins nous !!!",
+
+	logo : 'Logo Airsoft_Junia.png',
+
+	image: {
+		1 : 'Airsoft_Junia_IMAGE1.png',
+		2 : 'Airsoft_Junia_IMAGE8.png',
+		3 : 'Airsoft_Junia_IMAGE9.png',
+		},
+
+	horaire : "Nous organisons, au minimum, 1 partie par mois qui se déroule le week-end, les horaires les plus utiliées sont les suivantes : Samedi : 8h-17h, Dimanche : 8h-17h", 
+    horaire1 : "",
+    horaire2 : "",
+    horaire3 : "",
+    horaire4 : "",
+    horaire5 : "",
+
+	
+	lieu : "Nous excerçons l'airsoft sur des terrains amménagés et réglementés, pour ce sport, se situant aux alentours de Lille.",
+    //Des exemples de terrains dans lesquels nous jouons souvent : Xtrême KPS ou encore Paintball Arena*/",
+
+	nomVP : 'Matthieu Cuccaroni CITé HEI',
+
+	contact : 'https://www.instagram.com/airsoft_junia/',
+
+	nomInsta : 'airsoft_junia'
+
+},
 
 };

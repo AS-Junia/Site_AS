@@ -1,0 +1,43 @@
+//Ici vous mettrais les infos pour le site web de l'AS
+//Vous devez faire 4 choses
+//1 - Remplacer tout ce qui est en majuscule
+//2 - Et changer les lignes où il y a écrit (exemple)
+//3 - Mettre 3 images minimum dans le dossier image + votre logo en .png
+//4 - Renommer le dossier que je vous ai envoyé par le nom du sport ou de la commission
+//5 - Si vous avez des questions contacter moi par mail
+
+//Le nom du sport ou de la commission doit avoir un _ à la place d'un espace pour le premier
+AS Judo Junia : {
+
+	titre : "AS Judo Junia", //Ici un espace
+
+	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et turpis in nulla rhoncus aliquet vitae at mauris.
+	      	Nunc nec tortor erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	      	Aenean magna felis, ultricies non justo a, pulvinar mollis metus. Aenean at erat nulla (exemple).',
+
+	logo : '.TousLesDossiers/à renommer /image/Junia_Judo.png',
+
+	image: {
+		1 : '.TousLesDossiers/à renommer /image/IMG6098.JPG',
+		2 : '.TousLesDossiers/à renommer /image/IMG_6443.JPG',
+		3 : '.TousLesDossiers/à renommer /image/IMG_6512;JPG',
+		},
+
+	horaire : "Lundi : 19h-20h30",
+
+	horaire2 : "Jeudi : 16h30-18h30 , avec l'IESEG", //Vide si il n'y a qu'un cours par semaines
+	horaire3 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire4 : "", //Vide si il n'y a qu'un cours par semaines
+	horaire5 : "", //Vide si il n'y a qu'un cours par semaines
+
+	lieu : "Lundi : 77 Rue Philippe Laurent-Roland , 59000 Lille", "Jeudi : 85 Rue des Stations , 59000 Lille"
+
+	nomVP : 'BOULOGNE AUXENCE HEI3',
+
+	contact : 'https://www.instagram.com/junia_judo/',
+
+	nomInsta : 'junia_judo ou auxence.boulogne@student.junia.com'
+
+}
+
+//ATTENTION NOM_DU_DOSSIER est le même que le NOM_DU_SPORT/COMMISSION celui ci avec des _ à la place des espaces

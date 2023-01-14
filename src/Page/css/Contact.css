@@ -67,6 +67,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
+        cursor: pointer;
     }
 
     #CONTACT #FaceBook{
@@ -76,6 +77,7 @@
         background-image: url("../IMAGE/Contact/Image/caseFacebook.png");
         background-size: 100% 80%;
         background-repeat: no-repeat;
+        cursor: pointer;
     }
 
     .row-title{
@@ -174,6 +176,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
+        cursor: pointer;
     }
 
     #CONTACT #FaceBook{
@@ -184,6 +187,7 @@
         background-size: 100% 80%;
         background-repeat: no-repeat;
         display: flex;
+        cursor: pointer;
     }
 
     .row-title{

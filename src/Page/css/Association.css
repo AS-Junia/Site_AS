@@ -415,8 +415,8 @@
         position: absolute;
         left: 55vw;
         top: 35vh;
-        width: auto;
-        height: 70vh;
+        width: 35vw;
+        height: auto;
         margin: 5%;
         /* background-image: url("../../IMAGE/LogosAsso/Adeona.png"); */
         background-size: 100% 100%;
@@ -476,6 +476,7 @@
     }
     .instaASSO:hover{
         color: red;
+        cursor: pointer;
     }
 
     .GoAsso{
